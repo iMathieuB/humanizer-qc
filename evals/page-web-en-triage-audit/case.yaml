@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: page-web-en-triage-audit
+expected_outcome: |
+  Le skill passe en mode audit : il lit avant.md sans le modifier et ne propose aucune réécriture. Il rend la ligne Langue, Type, Mode puis un tableau trié par position, où les deux tirets cadratins (L5 et L11) ont la gravité haute, avec le titre à trous, les bénéfices interchangeables, « isn't just a tool, it's a dependable partner », « dependable », « quietly », « fosters », « Leveraging », les verbes « Features », « Offers » et « Boasts », et les émojis en tête de puce. Le prix CAD 2,400, le taux de $38 et l'appel à l'action « Book a call » ne comptent pas comme des tics. Liste de référence : evals/corpus/page_web/en-04-email-triage/notes.md.
+context:
+  scaffold_script: place-files.sh

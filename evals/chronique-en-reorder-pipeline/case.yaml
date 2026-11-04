@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: chronique-en-reorder-pipeline
+expected_outcome: |
+  Le skill révise le script anglais en mode pipeline, écrit sortie.md et laisse avant.md intact. Les trois codes temporels, les titres de segment et les deux lignes ▶ restent au caractère près, et chaque chiffre reste. Les ouvertures de remplissage, le parallélisme négatif, le tiret, « delve », « leveraging », « foster », les participes présents et la triade finale disparaissent; les phrases dites restent courtes, une idée par phrase. La sortie garde les 9 paragraphes de avant.md. La référence humaine est evals/corpus/chronique/en-04-reorder-alerts/apres.md (9 paragraphes).
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,3 @@
+## How Long Does It Really Take To Prepare A Quote?
+
+In today's fast-paced world, quoting speed is no longer a detail — it's a competitive advantage. Let's delve into the numbers. A heating and cooling contractor in Laval issues 60 quotes per month, each one taking 45 minutes, totaling 45 hours of office time. It's not a sales problem, it's a process problem. A quoting template with automatic pricing offers a dependable way to leverage existing price lists, quietly cutting each quote to 15 minutes and showcasing what streamlined workflows can achieve. That frees 30 hours per month, which translates to $1,650 in recovered time at $55 per hour, or $19,800 per year.

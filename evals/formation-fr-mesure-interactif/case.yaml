@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: formation-fr-mesure-interactif
+expected_outcome: |
+  Le skill reconnaît du matériel de formation en français et travaille en mode interactif. Le titre du module, la ligne d'objectifs, les trois étapes numérotées, l'encadré « À retenir » et l'exercice restent; le résidu de consigne « Développe toutes les sections. Sois plus détaillé et précis. », l'ouverture « Dans un monde où », les nominalisations, « Il est important de noter que », le tiret et « En conclusion » disparaissent, sans fait ajouté. La sortie garde les 10 paragraphes de avant.md : la dernière phrase se réécrit au lieu d'être supprimée. La référence humaine est evals/corpus/formation/fr-01-mesurer-tache/apres.md; elle retire cette phrase (9 paragraphes) et ne sert ici que de modèle pour les tics et le ton.
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: page-web-fr-diagnostic-pipeline
+expected_outcome: |
+  Le skill révise le haut de la page de service en mode pipeline, écrit sortie.md et laisse avant.md intact. La page garde ses trois puces de bénéfices (sans émoji), le forfait fixe de 1 500 $, l'exemple chiffré et l'appel à l'action « Réserver un appel de 20 minutes ». Le titre à trous, l'ouverture « Dans un monde où », « crucial », « libérer votre potentiel », « pas seulement..., mais aussi » et le tiret disparaissent. La sortie garde les 8 paragraphes de avant.md. La référence humaine est evals/corpus/page_web/fr-01-diagnostic-automatisation/apres.md (8 paragraphes).
+context:
+  scaffold_script: place-files.sh

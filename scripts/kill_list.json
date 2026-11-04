@@ -1,0 +1,4634 @@
+{
+ "fr": {
+  "vocabulaire": [
+   {
+    "item": "accru",
+    "source": "https://arxiv.org/html/2605.25358",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "améliorer",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "assurer",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "avant-gardiste",
+    "source": "https://seranking.com/fr/blog/bon-prompt-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "captivant",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "captiver",
+    "source": "https://arxiv.org/html/2605.25358",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "comprendre les attentes",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "compromettant",
+    "source": "https://arxiv.org/html/2605.25358",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "continuer",
+    "source": "https://arxiv.org/abs/2411.18382v1",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "crucial",
+    "source": "https://www.blogdumoderateur.com/tiret-cadratin-mort-vive-tiret-cadratin/",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [
+     "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "de plus",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "de pointe",
+    "source": "https://seranking.com/fr/blog/bon-prompt-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "devoir",
+    "source": "https://arxiv.org/abs/2411.18382v1",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "dorénavant",
+    "source": "https://www.blogdumoderateur.com/chatgpt-mots-utilises-chatbot/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "dualité",
+    "source": "https://arxiv.org/html/2605.25358",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "en outre",
+    "source": "https://www.blogdumoderateur.com/chatgpt-mots-utilises-chatbot/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "essentiel",
+    "source": "https://www.blogdumoderateur.com/detecter-texte-ia-chatgpt-outils-methodes/",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [
+     "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "favoriser",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "fondamental",
+    "source": "https://www.blogdumoderateur.com/tiret-cadratin-mort-vive-tiret-cadratin/",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [
+     "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "garantir",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "géopolitique",
+    "source": "https://arxiv.org/html/2605.25358",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "habilement",
+    "source": "https://arxiv.org/html/2605.25358",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "holistique",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "impacter",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "impartialité",
+    "source": "https://arxiv.org/html/2605.25358",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "implémenter (hors informatique)",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "importance",
+    "source": "https://arxiv.org/html/2605.25358",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "indispensable",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "innovant",
+    "source": "https://arxiv.org/html/2605.25358",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "insister",
+    "source": "https://arxiv.org/html/2605.25358",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "interdépendance",
+    "source": "https://www.slate.fr/tech-internet/intelligence-artificielle-ia-chatbot-chatgpt-texte-litterature-internet-ecriture",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "marquer",
+    "source": "https://arxiv.org/html/2605.25358",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "notamment",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "nous",
+    "source": "https://arxiv.org/abs/2411.18382v1",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "néanmoins",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "nécessité",
+    "source": "https://arxiv.org/html/2605.25358",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "offrir",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "optimiser les processus",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "palpable",
+    "source": "https://arxiv.org/html/2605.25358",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "par ailleurs",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "permettre",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "poignant",
+    "source": "https://arxiv.org/html/2605.25358",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "rigide",
+    "source": "https://arxiv.org/html/2605.25358",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "réindustrialisation",
+    "source": "https://www.slate.fr/tech-internet/intelligence-artificielle-ia-chatbot-chatgpt-texte-litterature-internet-ecriture",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "réinventé",
+    "source": "https://www.blogdumoderateur.com/chatgpt-mots-utilises-chatbot/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "répondre aux besoins",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "révolutionnaire",
+    "source": "https://seranking.com/fr/blog/bon-prompt-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "réévaluation",
+    "source": "https://arxiv.org/html/2605.25358",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Terme technique remplacé par un synonyme approximatif",
+    "source": "https://vantaige.io/fr/ai-tool/quillbot",
+    "niveau": "blogue",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "tirer parti",
+    "source": "https://www.eesel.ai/fr/blog/how-to-edit-ai-written-blog-posts",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "vaste tapisserie",
+    "source": "https://www.eesel.ai/fr/blog/how-to-edit-ai-written-blog-posts",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "verdoyant",
+    "source": "https://www.blogdumoderateur.com/chatgpt-mots-utilises-chatbot/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "véritable trésor",
+    "source": "https://seranking.com/fr/blog/bon-prompt-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "motif"
+   }
+  ],
+  "formules": [
+   {
+    "item": "adresser un problème",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Augmentez votre productivité aujourd'hui",
+    "source": "https://www.eesel.ai/fr/blog/generateur-de-texte-publicitaire-ia",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "C'est une excellente question",
+    "source": "https://www.pangram.com/fr/signs-of-ai-writing",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Cela pourrait entraîner",
+    "source": "https://ar5iv.labs.arxiv.org/html/2306.05871",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Comme nous l'avons vu",
+    "source": "https://www.blogdumoderateur.com/chatgpt-mots-utilises-chatbot/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "dans ce cadre",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "dans cette optique",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "définitivement (au sens de assurément)",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "en révolutionnant la manière dont vous",
+    "source": "https://seranking.com/fr/blog/bon-prompt-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "en tant qu'IA",
+    "source": "https://next.ink/article/71730/comment-tenter-didentifier-textes-emanant-dintelligences-artificielles-generatives",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "en tant qu’intelligence artificielle/qu’IA",
+    "source": "https://next.ink/article/71730/comment-tenter-didentifier-textes-emanant-dintelligences-artificielles-generatives",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "estomper la frontière entre",
+    "source": "https://www.pangram.com/fr/signs-of-ai-writing",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "faire du sens",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "il convient de noter que",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Il est crucial",
+    "source": "https://www.blogdumoderateur.com/detecter-texte-ia-chatgpt-outils-methodes/",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Il est crucial de comprendre",
+    "source": "https://www.blogdumoderateur.com/chatgpt-mots-utilises-chatbot/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "il est important de",
+    "source": "https://ar5iv.labs.arxiv.org/html/2306.05871",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Il est important de noter",
+    "source": "https://www.blogdumoderateur.com/chatgpt-mots-utilises-chatbot/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "il est important que",
+    "source": "https://www.letemps.ch/articles/chatgpt-a-son-propre-style-mais-pour-combien-de-temps",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Je suis désolé, je ne peux pas générer",
+    "source": "https://next.ink/article/71730/comment-tenter-didentifier-textes-emanant-dintelligences-artificielles-generatives",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "je vous recommande de",
+    "source": "https://www.letemps.ch/articles/chatgpt-a-son-propre-style-mais-pour-combien-de-temps",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "joue un rôle crucial",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "langue de bois",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_l%27usage_d%27une_IA_g%C3%A9n%C3%A9rative",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "libère le potentiel",
+    "source": "https://seranking.com/fr/blog/bon-prompt-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Libérez votre potentiel",
+    "source": "https://www.eesel.ai/fr/blog/generateur-de-texte-publicitaire-ia",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "monde en constante évolution",
+    "source": "https://seranking.com/fr/blog/bon-prompt-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "pas seulement X, mais aussi Y",
+    "source": "https://www.pangram.com/fr/signs-of-ai-writing",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "phrases creuses ou superficielles",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_l%27usage_d%27une_IA_g%C3%A9n%C3%A9rative",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "plonger dans",
+    "source": "https://www.eesel.ai/fr/blog/how-to-edit-ai-written-blog-posts",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "supporter (au sens de soutenir)",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Tournures maladroites ajoutées volontairement",
+    "source": "https://www.slate.fr/tech-internet/etudiants-faute-intelligence-artificielle-ia-tromper-professeurs-education-triche-chatgpt",
+    "niveau": "blogue",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "un récit captivant",
+    "source": "https://www.pangram.com/fr/signs-of-ai-writing",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "est devenu un enjeu",
+    "source": "évaluation à l'aveugle du skill, ronde 1, 2026-11-01 (observation maison)",
+    "niveau": "maison",
+    "topic": "E01-evals-ronde-1",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "est devenue un enjeu",
+    "source": "évaluation à l'aveugle du skill, ronde 1, 2026-11-01 (observation maison)",
+    "niveau": "maison",
+    "topic": "E01-evals-ronde-1",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "un enjeu crucial",
+    "source": "évaluation à l'aveugle du skill, ronde 1, 2026-11-01 (observation maison)",
+    "niveau": "maison",
+    "topic": "E01-evals-ronde-1",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "un enjeu majeur",
+    "source": "évaluation à l'aveugle du skill, ronde 1, 2026-11-01 (observation maison)",
+    "niveau": "maison",
+    "topic": "E01-evals-ronde-1",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "n'a plus sa place",
+    "source": "évaluation à l'aveugle du skill, ronde 1, 2026-11-01 (observation maison)",
+    "niveau": "maison",
+    "topic": "E01-evals-ronde-1",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "démarche incontournable",
+    "source": "évaluation à l'aveugle du skill, ronde 1, 2026-11-01 (observation maison)",
+    "niveau": "maison",
+    "topic": "E01-evals-ronde-1",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "est devenu essentiel",
+    "source": "évaluation à l'aveugle du skill, ronde 1, 2026-11-01 (observation maison)",
+    "niveau": "maison",
+    "topic": "E01-evals-ronde-1",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "est devenue essentielle",
+    "source": "évaluation à l'aveugle du skill, ronde 1, 2026-11-01 (observation maison)",
+    "niveau": "maison",
+    "topic": "E01-evals-ronde-1",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "est devenu incontournable",
+    "source": "évaluation à l'aveugle du skill, ronde 1, 2026-11-01 (observation maison)",
+    "niveau": "maison",
+    "topic": "E01-evals-ronde-1",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "est devenue incontournable",
+    "source": "évaluation à l'aveugle du skill, ronde 1, 2026-11-01 (observation maison)",
+    "niveau": "maison",
+    "topic": "E01-evals-ronde-1",
+    "autres_sources": [],
+    "type": "motif"
+   }
+  ],
+  "ouvertures": [
+   {
+    "item": "Au royaume de",
+    "source": "https://textcortex.com/fr/post/%C3%A9diter-contenu-ia",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Bien sûr! Voici",
+    "source": "https://www.pangram.com/fr/signs-of-ai-writing",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Dans le monde actuel",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "dans le monde trépidant d'aujourd'hui",
+    "source": "https://seranking.com/fr/blog/bon-prompt-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [
+     "https://www.eesel.ai/fr/blog/how-to-edit-ai-written-blog-posts"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "Dans le paysage actuel",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Dans le paysage numérique actuel en constante évolution",
+    "source": "https://seranking.com/fr/blog/bon-prompt-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Dans le paysage numérique actuel qui évolue rapidement",
+    "source": "https://textcortex.com/fr/post/%C3%A9diter-contenu-ia",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Dans un monde où",
+    "source": "https://www.blogdumoderateur.com/detecter-texte-ia-chatgpt-outils-methodes/",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Dans un monde qui évolue à un rythme effréné",
+    "source": "https://www.blogdumoderateur.com/chatgpt-mots-utilises-chatbot/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Il peut y avoir plusieurs raisons pour lesquelles",
+    "source": "https://ar5iv.labs.arxiv.org/html/2306.05871",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Je serais ravi de",
+    "source": "https://www.pangram.com/fr/signs-of-ai-writing",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "La vérité, c'est que",
+    "source": "https://pasqualepillitteri.it/fr/news/11196/nouveau-em-dash-9-signes-ecriture-ia",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Plongeons dans",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Plongeons dans le monde de",
+    "source": "https://textcortex.com/fr/post/%C3%A9diter-contenu-ia",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Plongez dans les détails",
+    "source": "https://www.blogdumoderateur.com/chatgpt-mots-utilises-chatbot/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Soyons clairs.",
+    "source": "https://pasqualepillitteri.it/fr/news/11196/nouveau-em-dash-9-signes-ecriture-ia",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Voici ce qu'il faut savoir",
+    "source": "https://www.pangram.com/fr/signs-of-ai-writing",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Voici l'essentiel.",
+    "source": "https://pasqualepillitteri.it/fr/news/11196/nouveau-em-dash-9-signes-ecriture-ia",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Voici quelques explications possibles :",
+    "source": "https://ar5iv.labs.arxiv.org/html/2306.05871",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "À l'ère numérique actuelle",
+    "source": "https://textcortex.com/fr/post/%C3%A9diter-contenu-ia",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   }
+  ],
+  "clotures": [
+   {
+    "item": "Au final",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "C'est la partie que tout le monde rate.",
+    "source": "https://pasqualepillitteri.it/fr/news/11196/nouveau-em-dash-9-signes-ecriture-ia",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "En conclusion",
+    "source": "https://www.blogdumoderateur.com/detecter-texte-ia-chatgpt-outils-methodes/",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "En fin de compte",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "En résumé",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "En somme",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Et ça compte.",
+    "source": "https://pasqualepillitteri.it/fr/news/11196/nouveau-em-dash-9-signes-ecriture-ia",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "J'espère que cela vous aidera",
+    "source": "https://ar5iv.labs.arxiv.org/html/2306.05871",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "je vous recommande de parler avec un professionnel",
+    "source": "https://ar5iv.labs.arxiv.org/html/2306.05871",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "N'hésitez pas à",
+    "source": "https://ar5iv.labs.arxiv.org/html/2306.05871",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "phrase de conclusion vague et creuse, de portée générale",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_une_source_g%C3%A9n%C3%A9r%C3%A9e_par_IA",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "section en fin de page nommée « Conclusion » ou « Héritage »",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_l%27usage_d%27une_IA_g%C3%A9n%C3%A9rative",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Y a-t-il autre chose que vous aimeriez savoir",
+    "source": "https://ar5iv.labs.arxiv.org/html/2306.05871",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   }
+  ],
+  "ponctuation": [
+   {
+    "item": "abondance de virgules",
+    "source": "https://www.letemps.ch/articles/chatgpt-a-son-propre-style-mais-pour-combien-de-temps",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "abondance de virgules pour énumérer des noms",
+    "source": "https://www.letemps.ch/articles/chatgpt-a-son-propre-style-mais-pour-combien-de-temps",
+    "niveau": "blogue",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "emoji ✅",
+    "source": "https://www.pangram.com/fr/signs-of-ai-writing",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "emoji 🚀",
+    "source": "https://www.pangram.com/fr/signs-of-ai-writing",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "espaces insécables systématiques avant la ponctuation",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Fautes de frappe ou d'orthographe ajoutées volontairement",
+    "source": "https://www.slate.fr/tech-internet/etudiants-faute-intelligence-artificielle-ia-tromper-professeurs-education-triche-chatgpt",
+    "niveau": "blogue",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "flèche →",
+    "source": "https://www.pangram.com/fr/signs-of-ai-writing",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "gras Markdown (**texte**)",
+    "source": "https://www.pangram.com/fr/signs-of-ai-writing",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "point-virgule",
+    "source": "https://www.blogdumoderateur.com/tiret-cadratin-mort-vive-tiret-cadratin/",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "point-virgule en excès",
+    "source": "https://www.blogdumoderateur.com/tiret-cadratin-mort-vive-tiret-cadratin/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "tiret cadratin",
+    "source": "https://www.slate.fr/tech-internet/intelligence-artificielle-ia-chatbot-chatgpt-texte-litterature-internet-ecriture",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "tiret cadratin (—) hors dialogue",
+    "source": "https://www.pangram.com/fr/signs-of-ai-writing",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "tiret long (cadratin)",
+    "source": "https://www.pangram.com/fr/signs-of-ai-writing",
+    "niveau": "blogue",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "tirets cadratins",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_l%27usage_d%27une_IA_g%C3%A9n%C3%A9rative",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "« **mot** »",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_l%27usage_d%27une_IA_g%C3%A9n%C3%A9rative",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "à la fois d'apostrophes courbes et d'apostrophes typographiques",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_l%27usage_d%27une_IA_g%C3%A9n%C3%A9rative",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "description"
+   }
+  ],
+  "structure": [
+   {
+    "item": ":contentReference[oaicite:2]{index=2}",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_l%27usage_d%27une_IA_g%C3%A9n%C3%A9rative",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "?utm_source=chatgpt.com",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_l%27usage_d%27une_IA_g%C3%A9n%C3%A9rative",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Ce n'est pas X. C'est Y.",
+    "source": "https://pasqualepillitteri.it/fr/news/11196/nouveau-em-dash-9-signes-ecriture-ia",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "conclusion récapitulative systématique",
+    "source": "https://www.blogdumoderateur.com/detecter-texte-ia-chatgpt-outils-methodes/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Contenu générique qui ignore le vécu et le contexte de l'équipe formée",
+    "source": "https://360learning.com/fr/blog/generation-contenus-formation-ia/",
+    "niveau": "blogue",
+    "topic": "T10-type-formation",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "deux adjectifs à la suite (cohérent et personnalisé)",
+    "source": "https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "doublets d'adjectifs (robuste et fiable, innovant et avant-gardiste)",
+    "source": "https://mcpservers.org/ko/agent-skills/samber/humaniseur-fr",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Développements présentés sous la forme de tableaux",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_l%27usage_d%27une_IA_g%C3%A9n%C3%A9rative",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Finir une phrase avec un participe présent",
+    "source": "https://www.blogdumoderateur.com/detecter-texte-ia-chatgpt-outils-methodes/",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "fourchette ronde au lieu d'un chiffre (de 5 à 10 minutes)",
+    "source": "https://pasqualepillitteri.it/fr/news/11196/nouveau-em-dash-9-signes-ecriture-ia",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "listes à puces à la place d'un texte suivi",
+    "source": "https://www.pangram.com/fr/signs-of-ai-writing",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Majuscules superflues dans les titres",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_l%27usage_d%27une_IA_g%C3%A9n%C3%A9rative",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "nominalisation des verbes",
+    "source": "https://www.slate.fr/tech-internet/intelligence-artificielle-ia-chatbot-chatgpt-texte-litterature-internet-ecriture",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "nominaliser les verbes",
+    "source": "https://www.slate.fr/tech-internet/intelligence-artificielle-ia-chatbot-chatgpt-texte-litterature-internet-ecriture",
+    "niveau": "blogue",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "participe présent en fin de phrase",
+    "source": "https://www.blogdumoderateur.com/detecter-texte-ia-chatgpt-outils-methodes/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Passages en gras",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_l%27usage_d%27une_IA_g%C3%A9n%C3%A9rative",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Phrases de même longueur, rythme monotone",
+    "source": "https://www.eesel.ai/fr/blog/how-to-edit-ai-written-blog-posts",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "plan de dissertation qui évite de trancher",
+    "source": "https://www.blogdumoderateur.com/chatgpt-mots-utilises-chatbot/",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Plus rapide, moins cher, plus intelligent (triplet systématique)",
+    "source": "https://pasqualepillitteri.it/fr/news/11196/nouveau-em-dash-9-signes-ecriture-ia",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Rapide. Simple. (fragments collés répétés)",
+    "source": "https://pasqualepillitteri.it/fr/news/11196/nouveau-em-dash-9-signes-ecriture-ia",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "reformuler la question puis redéfinir le sujet avant de répondre",
+    "source": "https://ar5iv.labs.arxiv.org/html/2306.05871",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "résumé « En bref » sous forme de liste à puces",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_une_source_g%C3%A9n%C3%A9r%C3%A9e_par_IA",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Sections comprenant en général 1 à 3 paragraphes chacune",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_l%27usage_d%27une_IA_g%C3%A9n%C3%A9rative",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "surabondance de noms, déterminants possessifs et nombres; peu de verbes, pronoms et adverbes",
+    "source": "https://arxiv.org/abs/2411.18382v1",
+    "niveau": "mesure",
+    "topic": "T21-french-measured-corpus-data",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Série de paragraphes courts d'une seule phrase",
+    "source": "https://www.eesel.ai/fr/blog/how-to-edit-ai-written-blog-posts",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Titres de sections sous forme de question",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_l%27usage_d%27une_IA_g%C3%A9n%C3%A9rative",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Titres génériques qui ne reflètent pas le contenu de la section",
+    "source": "https://textcortex.com/fr/post/%C3%A9diter-contenu-ia",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Ton non adapté à l'organisation (ton par défaut de l'IA)",
+    "source": "https://360learning.com/fr/blog/generation-contenus-formation-ia/",
+    "niveau": "blogue",
+    "topic": "T10-type-formation",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "triades (groupes de trois)",
+    "source": "https://www.pangram.com/fr/signs-of-ai-writing",
+    "niveau": "blogue",
+    "topic": "T06-francais-tics-corpus",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "utilisation régulière de listes à puces",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_l%27usage_d%27une_IA_g%C3%A9n%C3%A9rative",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "« Foire aux questions »",
+    "source": "https://fr.wikipedia.org/wiki/Aide:Identifier_une_source_g%C3%A9n%C3%A9r%C3%A9e_par_IA",
+    "niveau": "guide",
+    "topic": "T05-francais-institutionnel",
+    "autres_sources": [],
+    "type": "motif"
+   }
+  ]
+ },
+ "en": {
+  "vocabulaire": [
+   {
+    "item": "across",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "active social media presence",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "additionally",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://arxiv.org/html/2501.15654",
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "advancements",
+    "source": "https://arxiv.org/html/2412.11385",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "AI-powered",
+    "source": "https://superdesign.dev/blog/fix-generic-ai-landing-page",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "align with",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "aligns",
+    "source": "https://arxiv.org/html/2412.11385",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "amidst",
+    "source": "https://arxiv.org/html/2410.16107",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "associated with",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "attempted",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "authored",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "boasts",
+    "source": "https://arxiv.org/html/2412.11385",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "boasts a",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "bolstered",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "bosom peril (for breast cancer)",
+    "source": "https://www.pangram.com/blog/humanizers-aug-25",
+    "niveau": "blogue",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "cacophony",
+    "source": "https://arxiv.org/html/2410.16107",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "camaraderie",
+    "source": "https://arxiv.org/html/2410.16107",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "causal",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "challenge",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "clearer",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "commendable",
+    "source": "https://arxiv.org/html/2403.07183",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "commitment to",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "comparative and superlative adverbs (more, faster, best) piled up to intensify",
+    "source": "https://arxiv.org/html/2601.04925v1",
+    "niveau": "mesure",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "compelling",
+    "source": "https://arxiv.org/html/2403.07183",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "comprehending",
+    "source": "https://arxiv.org/html/2412.11385",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "comprehensive",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "comprehensively",
+    "source": "https://arxiv.org/html/2403.07183",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "connected with",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "consistent",
+    "source": "https://www.pangram.com/blog/pangram-4-technical",
+    "niveau": "blogue",
+    "topic": "T01-detecteurs-mecanique",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "correlate",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "counterfeit consciousness (for artificial intelligence)",
+    "source": "https://www.pangram.com/blog/humanizers-aug-25",
+    "niveau": "blogue",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "crucial",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://arxiv.org/html/2501.15654",
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+     "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+     "https://www.boston.com/news/technology/2025/05/14/professors-using-chatgpt-some-students-arent-happy/"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "crucial role",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "cutting-edge",
+    "source": "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [
+     "https://cbriansmith.substack.com/p/leash-the-robot-and-keep-your-emails"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "deep dive",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "deeply rooted",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "delve",
+    "source": "https://arxiv.org/html/2402.14873",
+    "niveau": "mesure",
+    "topic": "T01-detecteurs-mecanique",
+    "autres_sources": [
+     "https://arxiv.org/html/2406.07016",
+     "https://arxiv.org/html/2501.15654",
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+     "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+     "https://cbriansmith.substack.com/p/leash-the-robot-and-keep-your-emails",
+     "https://www.boston.com/news/technology/2025/05/14/professors-using-chatgpt-some-students-arent-happy/"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "delves",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "delving",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "dependable",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Dictionary-lookup synonyms used in the wrong context",
+    "source": "https://arxiv.org/html/2501.03437",
+    "niveau": "mesure",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "diverse array",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "echoed",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Elara",
+    "source": "https://arxiv.org/html/2510.15061",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "elevate",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [
+     "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "embrace",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "emphasizing",
+    "source": "https://arxiv.org/html/2412.11385",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "empirical",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "empower",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [
+     "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "enduring",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "enduring legacy",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "enhance",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "enhancing",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "enormous information (for big data)",
+    "source": "https://arxiv.org/html/2402.03370",
+    "niveau": "mesure",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "evolving landscape",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "exemplifies",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "exhibited",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "features",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "features / offers au lieu de has",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "findings",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "flag to clamor (for signal to noise)",
+    "source": "https://arxiv.org/html/2402.03370",
+    "niveau": "mesure",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "fleeting",
+    "source": "https://arxiv.org/html/2410.16107",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "focal point",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "foster",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "fostering",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "functions as",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "game-changer",
+    "source": "https://cbriansmith.substack.com/p/leash-the-robot-and-keep-your-emails",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "garner",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "garnered",
+    "source": "https://arxiv.org/html/2412.11385",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "grapple",
+    "source": "https://arxiv.org/html/2410.16107",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "groundbreaking",
+    "source": "https://arxiv.org/html/2412.11385",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://arxiv.org/html/2501.15654",
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "harness",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "highlight",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "holistic",
+    "source": "https://arxiv.org/html/2403.07183",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "ignite",
+    "source": "https://arxiv.org/html/2410.16107",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "in connection with",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "in the heart of",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "indelible mark",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "independent coverage",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "innovative",
+    "source": "https://arxiv.org/html/2403.07183",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "insightful",
+    "source": "https://arxiv.org/html/2403.07183",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "insights",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "interplay",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "intricacies",
+    "source": "https://arxiv.org/html/2412.11385",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "intricate",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "invaluable",
+    "source": "https://arxiv.org/html/2403.07183",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "is a reminder",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "is a testament",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "key turning point",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "landscape",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "leverage",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [
+     "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+     "https://cbriansmith.substack.com/p/leash-the-robot-and-keep-your-emails"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "maintains",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "man-made consciousness (for artificial intelligence)",
+    "source": "https://arxiv.org/html/2402.03370",
+    "niveau": "mesure",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "matters",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "may",
+    "source": "https://www.pangram.com/blog/pangram-4-technical",
+    "niveau": "blogue",
+    "topic": "T01-detecteurs-mecanique",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "methodically",
+    "source": "https://arxiv.org/html/2403.07183",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "meticulous",
+    "source": "https://arxiv.org/html/2403.07183",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "meticulously",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "modal hedge 'might' in softened persuasion",
+    "source": "https://arxiv.org/html/2601.04925v1",
+    "niveau": "mesure",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "modern",
+    "source": "https://superdesign.dev/blog/fix-generic-ai-landing-page",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "moreover",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "multifaceted",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "natural beauty",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "navigate",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "nestled",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "notable",
+    "source": "https://arxiv.org/html/2403.07183",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "notably",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "noteworthy",
+    "source": "https://arxiv.org/html/2403.07183",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "offers",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "operates as",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "palpable",
+    "source": "https://arxiv.org/html/2410.16107",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "paramount",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "particularly",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "passed away",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "pivotal",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://arxiv.org/html/2501.15654",
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+     "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "pivotal role",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "potential",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "practical",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "prioritize",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "profound",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "quietly",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Random nonsense strings inserted, e.g. CGSizeMake pp 18-23",
+    "source": "https://arxiv.org/html/2501.03437",
+    "niveau": "mesure",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "randomized controlled preliminary (for randomized controlled trial)",
+    "source": "https://arxiv.org/html/2402.03370",
+    "niveau": "mesure",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "realm",
+    "source": "https://arxiv.org/html/2412.11385",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "reflects broader",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "relocated",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "renowned",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "resonate",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "resonate with",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "rich",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "robust",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+     "https://www.pangram.com/blog/pangram-4-technical",
+     "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "seamless",
+    "source": "https://arxiv.org/html/2403.07183",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://arxiv.org/html/2501.15654",
+     "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "seamlessly",
+    "source": "https://arxiv.org/html/2403.07183",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "serves as",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "setting the stage for",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "shimmered",
+    "source": "https://arxiv.org/html/2510.15061",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "showcase",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "showcases",
+    "source": "https://arxiv.org/html/2412.11385",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "showcasing",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "significantly",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "solace",
+    "source": "https://arxiv.org/html/2410.16107",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "stands as",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "steady",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "streamline",
+    "source": "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "strong",
+    "source": "https://www.pangram.com/blog/pangram-4-technical",
+    "niveau": "blogue",
+    "topic": "T01-detecteurs-mecanique",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "suggests",
+    "source": "https://www.pangram.com/blog/pangram-4-technical",
+    "niveau": "blogue",
+    "topic": "T01-detecteurs-mecanique",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "surpasses",
+    "source": "https://arxiv.org/html/2412.11385",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "surpassing",
+    "source": "https://arxiv.org/html/2412.11385",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "tapestry",
+    "source": "https://arxiv.org/html/2410.16107",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://arxiv.org/html/2501.15654",
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "testament",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "trade publications",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "transformative",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [
+     "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "typically",
+    "source": "https://www.pangram.com/blog/pangram-4-technical",
+    "niveau": "blogue",
+    "topic": "T01-detecteurs-mecanique",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "underscore",
+    "source": "https://arxiv.org/html/2412.11385",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "underscores",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "underscoring",
+    "source": "https://arxiv.org/html/2412.11385",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "undoubtedly",
+    "source": "https://arxiv.org/html/2403.07183",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "universally",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "unravel",
+    "source": "https://arxiv.org/html/2410.16107",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "unsettlingly",
+    "source": "https://arxiv.org/html/2510.15061",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "unspoken",
+    "source": "https://arxiv.org/html/2410.16107",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "utilize",
+    "source": "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "utilized",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "utilized, authored, relocated, attempted, passed away (stiff synonyms for used, wrote, moved, tried, died)",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "valuable",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "valuable insights",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "versatile",
+    "source": "https://arxiv.org/html/2403.07183",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "vibrant",
+    "source": "https://arxiv.org/html/2410.16107",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://arxiv.org/html/2501.15654",
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "vital role",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "within",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   }
+  ],
+  "formules": [
+   {
+    "item": "a profound sense",
+    "source": "https://arxiv.org/html/2510.15061",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "as an AI language model",
+    "source": "https://arxiv.org/html/2402.14873",
+    "niveau": "mesure",
+    "topic": "T01-detecteurs-mecanique",
+    "autres_sources": [
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "as of my last knowledge update",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "At the end of the day",
+    "source": "https://www.opus.pro/blog/chatgpt-prompts-video-scripts-2026",
+    "niveau": "blogue",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "attributing unusually high importance to ordinary ideas",
+    "source": "https://gptzero.me/news/why-writing-flagged-ai",
+    "niveau": "blogue",
+    "topic": "T02-detecteurs-etudes",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "based on available information",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Boost your productivity today",
+    "source": "https://www.eesel.ai/blog/ai-ad-copy-generator",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Buy now and save big!",
+    "source": "https://developers.facebook.com/docs/marketing-api/creative/generative-ai-features",
+    "niveau": "guide",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "cautionary tale",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Certainly!",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "cited in",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "contributing to the",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Despite its [...], [subject] faces challenges",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "does not by itself establish",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "ensured that... adheres to",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "expand on all areas. Be more detailed and specific. (consigne de prompt oubliée dans le document)",
+    "source": "https://www.boston.com/news/technology/2025/05/14/professors-using-chatgpt-some-students-arent-happy/",
+    "niveau": "blogue",
+    "topic": "T10-type-formation",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Experts argue",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "featured in",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Get your dream [product] at an unbeatable price!",
+    "source": "https://developers.facebook.com/docs/marketing-api/creative/generative-ai-features",
+    "niveau": "guide",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "highlights its importance",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "I hope this helps",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "I require to obtain my vehicle repaired",
+    "source": "https://www.pangram.com/blog/what-is-a-humanizer",
+    "niveau": "blogue",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "in a world of",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "in the provided sources",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Industry reports",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "is there anything else",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "It is crucial to differentiate",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "it is important to note",
+    "source": "https://arxiv.org/html/2402.14873",
+    "niveau": "mesure",
+    "topic": "T01-detecteurs-mecanique",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "It is not just ..., it's ...",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "it's important to note",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "It's important to remember that",
+    "source": "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "It's not ..., it's ...",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "it's not just X, it's Y",
+    "source": "https://arxiv.org/html/2510.15061",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "It's not X, it's Y",
+    "source": "https://arxiv.org/html/2510.15061",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://storeytime.beehiiv.com/p/anti-ai-copywriting-prompts"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "It's worth noting that",
+    "source": "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "it’s crucial to",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "it’s important to note",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "it’s not about ___ it’s about ___",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "let me know",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "maintains a low profile",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "marks a shift",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "more detailed breakdown",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "no ..., no ..., just ...",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Not only ... but ...",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "not only ... but also",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "not only ___ but also",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "not widely available",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "not widely documented",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "not X, but Y",
+    "source": "https://arxiv.org/html/2510.15061",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [
+     "https://gptzero.me/news/why-writing-flagged-ai"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "Now that we've covered X, let's turn to Y",
+    "source": "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Observers have cited",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Of course!",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "One might consider",
+    "source": "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "packs a punch",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "paving the way",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Personal pronouns added that were not in the source",
+    "source": "https://arxiv.org/html/2501.03437",
+    "niveau": "mesure",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "profiled in",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "rather than",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "represents a shift",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Save time. Work smarter. Scale faster.",
+    "source": "https://superdesign.dev/blog/fix-generic-ai-landing-page",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "several sources",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "should be treated as ... rather than",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "should not be confused with",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "simple yet ___",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Some critics argue",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "takes a deep dive",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "The AI-powered [X] for modern [Y]",
+    "source": "https://superdesign.dev/blog/fix-generic-ai-landing-page",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "the intricate interplay between",
+    "source": "https://arxiv.org/html/2406.07016",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "The truth is",
+    "source": "https://www.opus.pro/blog/chatgpt-prompts-video-scripts-2026",
+    "niveau": "blogue",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "To summarize what we've learned",
+    "source": "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "underscores its significance",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Unlock your potential",
+    "source": "https://www.eesel.ai/blog/ai-ad-copy-generator",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Up to my last training update",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "voice barely above a whisper",
+    "source": "https://arxiv.org/html/2510.15061",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "when it comes to",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "while preserving",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "While specific details are limited",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Would you like...",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "You're absolutely right!",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "can't afford to wait",
+    "source": "évaluation à l'aveugle du skill, ronde 1, 2026-11-01 (observation maison)",
+    "niveau": "maison",
+    "topic": "E01-evals-ronde-1",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "is no longer a detail",
+    "source": "évaluation à l'aveugle du skill, ronde 1, 2026-11-01 (observation maison)",
+    "niveau": "maison",
+    "topic": "E01-evals-ronde-1",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "a clear roadmap",
+    "source": "évaluation à l'aveugle du skill, ronde 1, 2026-11-01 (observation maison)",
+    "niveau": "maison",
+    "topic": "E01-evals-ronde-1",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "dependable partner",
+    "source": "évaluation à l'aveugle du skill, ronde 1, 2026-11-01 (observation maison)",
+    "niveau": "maison",
+    "topic": "E01-evals-ronde-1",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "hiding in plain sight",
+    "source": "évaluation à l'aveugle du skill, ronde 1, 2026-11-01 (observation maison)",
+    "niveau": "maison",
+    "topic": "E01-evals-ronde-1",
+    "autres_sources": [],
+    "type": "motif"
+   }
+  ],
+  "ouvertures": [
+   {
+    "item": "a strong scene-opener with a description of a specific time or place",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Abstract:",
+    "source": "https://arxiv.org/html/2402.14873",
+    "niveau": "mesure",
+    "topic": "T01-detecteurs-mecanique",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "As technology continues to evolve",
+    "source": "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Dear Wikipedia Editorial Team",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Despite its... faces several challenges",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Get ... (four of five generated variants open with 'Get')",
+    "source": "https://developers.facebook.com/docs/marketing-api/creative/generative-ai-features",
+    "niveau": "guide",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Here is a",
+    "source": "https://arxiv.org/html/2402.14873",
+    "niveau": "mesure",
+    "topic": "T01-detecteurs-mecanique",
+    "autres_sources": [
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "I hope this message finds you well",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "I understand your concerns regarding",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "I'm happy to help",
+    "source": "https://arxiv.org/html/2402.14873",
+    "niveau": "mesure",
+    "topic": "T01-detecteurs-mecanique",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "In the current landscape of",
+    "source": "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "In this article, we will explore",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "In this section, we will discuss",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "In this video",
+    "source": "https://www.opus.pro/blog/chatgpt-prompts-video-scripts-2026",
+    "niveau": "blogue",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "In today's fast-paced world",
+    "source": "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [
+     "https://cbriansmith.substack.com/p/leash-the-robot-and-keep-your-emails"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "Let's dive in",
+    "source": "https://www.opus.pro/blog/chatgpt-prompts-video-scripts-2026",
+    "niveau": "blogue",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Sure",
+    "source": "https://arxiv.org/html/2402.14873",
+    "niveau": "mesure",
+    "topic": "T01-detecteurs-mecanique",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Sure! Here is an essay in response to your prompt:",
+    "source": "https://arxiv.org/html/2402.14873",
+    "niveau": "mesure",
+    "topic": "T01-detecteurs-mecanique",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "This article delves into",
+    "source": "https://arxiv.org/html/2412.11385",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "This study delves into",
+    "source": "https://arxiv.org/html/2412.11385",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Title:",
+    "source": "https://arxiv.org/html/2402.14873",
+    "niveau": "mesure",
+    "topic": "T01-detecteurs-mecanique",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Today we're doing a deep dive into",
+    "source": "https://www.scientificamerican.com/podcast/episode/how-tools-like-notebooklm-create-ai-generated-podcasts",
+    "niveau": "blogue",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "We always start with a clear overview of the topic (survol qui annonce le programme)",
+    "source": "https://simonwillison.net/2024/Sep/29/notebooklm-audio-overview/",
+    "niveau": "blogue",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Without further ado",
+    "source": "https://www.opus.pro/blog/chatgpt-prompts-video-scripts-2026",
+    "niveau": "blogue",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "motif"
+   }
+  ],
+  "clotures": [
+   {
+    "item": "AI-generated text always ends with a neat conclusion",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "attempting to emotionally uplift the reader, especially towards the conclusion",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Challenges and Legacy",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "continues to thrive",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Despite its [...], [subject] faces challenges...",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T10-type-formation",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Despite these challenges",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Follow for more",
+    "source": "https://www.opus.pro/blog/chatgpt-prompts-video-scripts-2026",
+    "niveau": "blogue",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Future Outlook",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Happy Editing!",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "in conclusion",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "In conclusion,",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "in summary",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [
+     "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+    ],
+    "type": "motif"
+   },
+   {
+    "item": "In summary,",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Let's Connect!",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Like if you agree",
+    "source": "https://www.opus.pro/blog/chatgpt-prompts-video-scripts-2026",
+    "niveau": "blogue",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Link in bio",
+    "source": "https://www.opus.pro/blog/chatgpt-prompts-video-scripts-2026",
+    "niveau": "blogue",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Overall",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "remember that",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Section ending by summarizing and restating its core idea",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T10-type-formation",
+    "autres_sources": [],
+    "type": "description"
+   }
+  ],
+  "ponctuation": [
+   {
+    "item": "**mot** (astérisques de gras Markdown)",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing/Markup",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "--- ou ---- comme séparateur de section",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing/Markup",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "AI-generated text is usually grammatically perfect (also avoiding dashes and ellipses)",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Comma splices, punctuation formatting errors and sentence fragments",
+    "source": "https://gptzero.me/news/ai-paraphrasing-detection/",
+    "niveau": "blogue",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "commas and periods only (absence de ponctuation variée)",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "dashes and extra commas in persuasive text",
+    "source": "https://arxiv.org/html/2601.04925v1",
+    "niveau": "mesure",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "decorative emoji appended to a short ad line (📺, ✨)",
+    "source": "https://developers.facebook.com/docs/marketing-api/creative/generative-ai-features",
+    "niveau": "guide",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Deliberate typos and one grammar, punctuation or capitalization error per paragraph",
+    "source": "https://arxiv.org/html/2501.03437",
+    "niveau": "mesure",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "em dash",
+    "source": "https://www.pangram.com/blog/how-does-pangram-work",
+    "niveau": "blogue",
+    "topic": "T01-detecteurs-mecanique",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "em dash (unspaced word—word), about 8-11 per 1,000 words in GPT-4.1 and Claude vs 3.23 human mean",
+    "source": "https://arxiv.org/html/2603.27006",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "em dash (—) entouré d'espaces",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "exclamation marks stacked in a short body text (two '!' in one 70-character variant)",
+    "source": "https://developers.facebook.com/docs/marketing-api/creative/generative-ai-features",
+    "niveau": "guide",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "guillemets et apostrophes courbes (“ ” ’)",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing/Style",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Missing space between sentences",
+    "source": "https://www.pangram.com/blog/humanizers-aug-25",
+    "niveau": "blogue",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Only commas and periods, no varied punctuation, after em dash suppression",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Overuse of boldface in prose",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T10-type-formation",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Series of question marks inserted as in-line comments (??????)",
+    "source": "https://arxiv.org/html/2501.03437",
+    "niveau": "mesure",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Thin space U+2009 or other non-standard Unicode characters in place of normal spaces",
+    "source": "https://www.pangram.com/blog/humanizers-aug-25",
+    "niveau": "blogue",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Tiret cadratin (em dash) en surnombre",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "tirets cadratins partout",
+    "source": "https://storeytime.beehiiv.com/p/anti-ai-copywriting-prompts",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Tirets cadratins pour insérer des apartés",
+    "source": "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "trop d'émojis",
+    "source": "https://storeytime.beehiiv.com/p/anti-ai-copywriting-prompts",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "unspaced em dash in press-release prose",
+    "source": "https://arxiv.org/abs/2608.05889",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "↩ autour des notes",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   }
+  ],
+  "structure": [
+   {
+    "item": "'that' clauses as sentence subject",
+    "source": "https://arxiv.org/html/2410.16107",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "a bold header per bullet point, followed by a colon",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "aspirational, elevating message instead of a simple, direct one",
+    "source": "https://arxiv.org/html/2512.03373v1",
+    "niveau": "mesure",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Awards and recognition (section)",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Branching scenario with one correct answer and two obviously wrong ones",
+    "source": "https://elearningindustry.com/why-pedagogy-should-drive-ai-course-generation-not-the-other-way-around",
+    "niveau": "blogue",
+    "topic": "T10-type-formation",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Challenges and Future Prospects (section)",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "comment that simply restates the original post",
+    "source": "https://news.linkedin.com/2026/keeping-conversations-real-on-linkedin",
+    "niveau": "guide",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Course parked at remember and understand, with one application question at the end",
+    "source": "https://elearningindustry.com/why-pedagogy-should-drive-ai-course-generation-not-the-other-way-around",
+    "niveau": "blogue",
+    "topic": "T10-type-formation",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Course that mirrors the shape of the source document",
+    "source": "https://elearningindustry.com/why-pedagogy-should-drive-ai-course-generation-not-the-other-way-around",
+    "niveau": "blogue",
+    "topic": "T10-type-formation",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Disfluences et bavardage ajoutés après coup à un script stérile",
+    "source": "https://simonwillison.net/2024/Sep/29/notebooklm-audio-overview/",
+    "niveau": "blogue",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Drift toward abstract higher-order questions beyond the learner's level",
+    "source": "https://arxiv.org/html/2606.18257",
+    "niveau": "mesure",
+    "topic": "T10-type-formation",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Every sentence split into single-clause statements",
+    "source": "https://arxiv.org/html/2501.03437",
+    "niveau": "mesure",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Fausse balance « On one hand... on the other hand »",
+    "source": "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "few downtoners (underuse of slightly, somewhat)",
+    "source": "https://arxiv.org/html/2604.14111",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Fictional or hallucinated citations inserted in the text, e.g. (Westwood, 2013)",
+    "source": "https://arxiv.org/html/2501.03437",
+    "niveau": "mesure",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Formulaic Sentence Structures",
+    "source": "https://gptzero.me/news/why-writing-flagged-ai",
+    "niveau": "blogue",
+    "topic": "T02-detecteurs-etudes",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Gabarit fixe et contexte culturel américain par défaut, sans ancrage local",
+    "source": "https://arxiv.org/abs/2511.08654v1",
+    "niveau": "mesure",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Generic Examples vs. Real-World Detail",
+    "source": "https://gptzero.me/news/why-writing-flagged-ai",
+    "niveau": "blogue",
+    "topic": "T02-detecteurs-etudes",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Gras excessif dans la prose",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Hypothetical scenarios instead of scenarios drawn from cited studies",
+    "source": "https://arxiv.org/html/2306.01006v2",
+    "niveau": "mesure",
+    "topic": "T10-type-formation",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "imperative and infinitival constructions throughout, no syntactic inversion",
+    "source": "https://arxiv.org/html/2601.04925v1",
+    "niveau": "mesure",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Inline-header vertical lists",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T10-type-formation",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "inline-header vertical lists (puce + titre en gras + deux-points)",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing/Style",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Lack of Personal Touch",
+    "source": "https://gptzero.me/news/why-writing-flagged-ai",
+    "niveau": "blogue",
+    "topic": "T02-detecteurs-etudes",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Liste d'éléments ayant chacun une définition plate et un exemple en puce (même gabarit répété)",
+    "source": "https://www.boston.com/news/technology/2025/05/14/professors-using-chatgpt-some-students-arent-happy/",
+    "niveau": "blogue",
+    "topic": "T10-type-formation",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Listes verticales avec en-tête en gras intégré (inline-header lists)",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "low burstiness: sentences of similar length and structure",
+    "source": "https://arstechnica.com/information-technology/2023/07/why-ai-detectors-think-the-us-constitution-was-written-by-ai/",
+    "niveau": "blogue",
+    "topic": "T02-detecteurs-etudes",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "marketing slogan instead of a personal message",
+    "source": "https://arxiv.org/html/2512.03373v1",
+    "niveau": "mesure",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "MCQ distractors that are valid but match no real learner misconception",
+    "source": "https://arxiv.org/html/2404.02124",
+    "niveau": "mesure",
+    "topic": "T10-type-formation",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Monotonous Tone",
+    "source": "https://gptzero.me/news/why-writing-flagged-ai",
+    "niveau": "blogue",
+    "topic": "T02-detecteurs-etudes",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "more repetitive than humans (Self-BLEU), lower perplexity",
+    "source": "https://arxiv.org/html/2405.07940",
+    "niveau": "mesure",
+    "topic": "T02-detecteurs-etudes",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "neat sets of threes",
+    "source": "https://gptzero.me/news/why-writing-flagged-ai",
+    "niveau": "blogue",
+    "topic": "T02-detecteurs-etudes",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "nominalizations at 1.5 to 2 times human rate",
+    "source": "https://arxiv.org/html/2410.16107",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "optimistically vague conclusions",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "ordre fixe héros, logos, trois fonctionnalités, témoignage, prix, appel à l'action",
+    "source": "https://superdesign.dev/blog/fix-generic-ai-landing-page",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "petits tableaux minimalistes",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing/Style",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Phantom Experts (claim attributed to unnamed authorities)",
+    "source": "https://gptzero.me/news/why-writing-flagged-ai",
+    "niveau": "blogue",
+    "topic": "T02-detecteurs-etudes",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "phrase d'intro qui définit le titre (refers to)",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "placeholders [Your Name] / 2025-XX-XX",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "polished on the surface but no unique perspective or substance",
+    "source": "https://news.linkedin.com/2026/keeping-conversations-real-on-linkedin",
+    "niveau": "guide",
+    "topic": "T22-ai-ad-copy-tells-measured",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "present participial clauses (e.g. 'X, leaning on..., dances..., evading...')",
+    "source": "https://arxiv.org/html/2410.16107",
+    "niveau": "mesure",
+    "topic": "T04-vocabulaire-mesure",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "rangée de trois cartes de fonctionnalités avec émoji ou icône",
+    "source": "https://superdesign.dev/blog/fix-generic-ai-landing-page",
+    "niveau": "blogue",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Repetitive Patterns in Text",
+    "source": "https://gptzero.me/news/why-writing-flagged-ai",
+    "niveau": "blogue",
+    "topic": "T02-detecteurs-etudes",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "rule of three",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Rule of three (adjectif, adjectif, adjectif)",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Règle de trois (adjectif, adjectif, adjectif)",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "règle de trois (triplets d'adjectifs ou de propositions)",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Répliques qui se répondent sans vrai dialogue (intonation de conversation seulement)",
+    "source": "https://www.scientificamerican.com/podcast/episode/how-tools-like-notebooklm-create-ai-generated-podcasts",
+    "niveau": "blogue",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Same tortured synonym replacement repeated twice in one document",
+    "source": "https://www.pangram.com/blog/humanizers-aug-25",
+    "niveau": "blogue",
+    "topic": "T12-surcorrection",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Section intitulée « Conclusion » qui résume l'article",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Section « Challenges and Future Directions » à formule fixe",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "The headers written by AI are quite repetitive",
+    "source": "https://arxiv.org/html/2501.15654",
+    "niveau": "mesure",
+    "topic": "T11-perception-humaine",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "tiret ou puce + '-ing' final d'analyse superficielle",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Title Case dans les titres",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing/Style",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Title case in section headings",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T10-type-formation",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "titre H1 avec le nom de l'article",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing/Style",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "titres contenant seulement d'autres titres",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing/Style",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Titres de section en Title Case",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "titres en forme X and Y",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Ton positif et enjoué par défaut, éloges du sujet",
+    "source": "https://www.scientificamerican.com/podcast/episode/how-tools-like-notebooklm-create-ai-generated-podcasts",
+    "niveau": "blogue",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Triplets rythmés (« fast, reliable, and scalable »)",
+    "source": "https://styleguide.dynatrace.com/docs/best-practices/remove-ai-writing-patterns-from-content",
+    "niveau": "blogue",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Twelve slides of information dump with a five-question quiz bolted on the end",
+    "source": "https://elearningindustry.com/why-pedagogy-should-drive-ai-course-generation-not-the-other-way-around",
+    "niveau": "blogue",
+    "topic": "T10-type-formation",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "utm_source=chatgpt.com",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "motif"
+   },
+   {
+    "item": "Variation élégante: synonymes pour éviter de répéter un mot",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T09-type-script-oral",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Zero Typos",
+    "source": "https://gptzero.me/news/why-writing-flagged-ai",
+    "niveau": "blogue",
+    "topic": "T02-detecteurs-etudes",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "émoji au début de chaque titre ou élément de liste",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T08-type-page-web-publicite",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "Émoji en début de titre de section ou d'élément de liste",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "niveau": "guide",
+    "topic": "T07-type-article-seo-geo-aeo",
+    "autres_sources": [],
+    "type": "description"
+   },
+   {
+    "item": "émoji en tête de titre ou de puce",
+    "source": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing/Style",
+    "niveau": "guide",
+    "topic": "T03-wikipedia-signes-en",
+    "autres_sources": [],
+    "type": "description"
+   }
+  ]
+ }
+}

@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+dist/
+evals/results/
+PREPARATION_PUBLICATION.md
+references/voix-auteur.md

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: article-fr-faq-pipeline
+expected_outcome: |
+  Le skill révise la FAQ et la fin d'article en mode pipeline, écrit le résultat dans sortie.md et laisse avant.md intact. Les trois questions de la FAQ et leurs réponses directes restent; le tiret, la typographie anglaise des montants, « Il est important de », « En conclusion » et la clôture de service disparaissent; le gras sur les chiffres reste (élément protégé de type-article.md). La sortie garde les 6 paragraphes de avant.md : l'intertitre « Conclusion » peut changer de libellé mais pas disparaître. La référence humaine est evals/corpus/article/fr-03-faq-fin-article/apres.md (6 paragraphes, gras des chiffres gardé, intertitre de fin renommé).
+context:
+  scaffold_script: place-files.sh

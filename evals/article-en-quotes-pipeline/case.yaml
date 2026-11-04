@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: article-en-quotes-pipeline
+expected_outcome: |
+  Le skill révise la section anglaise en mode pipeline, écrit sortie.md et laisse avant.md intact. L'intertitre H2 reste une question, en casse de phrase, suivie tout de suite de la réponse chiffrée; tous les chiffres restent, avec le gras sur deux résultats au plus. Le tiret, « It's not X, it's Y », « delve », « leverage », « dependable », « quietly » et les participes présents disparaissent. La référence humaine est evals/corpus/article/en-04-quote-time/apres.md (2 paragraphes, comme avant.md).
+context:
+  scaffold_script: place-files.sh

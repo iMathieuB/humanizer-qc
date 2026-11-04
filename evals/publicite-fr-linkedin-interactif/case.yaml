@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: publicite-fr-linkedin-interactif
+expected_outcome: |
+  Le skill reconnaît une publicité LinkedIn en français et travaille en mode interactif. Les étiquettes « Texte d'introduction : », « Titre : » et « Bouton : » restent, le bouton « En savoir plus » ne change pas, les trois lignes de faits restent, sans émoji, et le texte d'introduction donne un fait chiffré dans ses 150 premiers caractères. « Dans un monde où », « libérez votre potentiel », « pas seulement..., mais aussi », le titre à trous et le tiret disparaissent, sans fait ajouté. La sortie garde les 7 paragraphes de avant.md. La référence humaine est evals/corpus/publicite/fr-01-diagnostic-courriels-linkedin/apres.md (7 paragraphes).
+context:
+  scaffold_script: place-files.sh

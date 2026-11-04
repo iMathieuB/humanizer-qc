@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: formation-en-approval-interactif
+expected_outcome: |
+  Le skill reconnaît du matériel de formation en anglais et travaille en mode interactif. Le titre du module, la ligne d'objectifs, l'intitulé « Steps » suivi de trois étapes et l'exercice restent; le résidu de consigne « Expand on all areas. Be more detailed and specific. », « delve », « crucial », « underscores », le tiret, les participes présents, la liste à intitulés en gras et « It's not just a diagram, it's a roadmap » disparaissent, sans fait ajouté. La sortie garde les 9 paragraphes de avant.md. La référence humaine est evals/corpus/formation/en-04-approval-workflow/apres.md (9 paragraphes).
+context:
+  scaffold_script: place-files.sh

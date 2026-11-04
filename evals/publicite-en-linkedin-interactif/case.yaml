@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: publicite-en-linkedin-interactif
+expected_outcome: |
+  Le skill reconnaît une publicité LinkedIn en anglais et travaille en mode interactif. Les étiquettes « Introductory text: », « Headline: » et « Button: » restent, le bouton « Learn more » ne change pas, et tous les chiffres restent. Les bénéfices interchangeables, « It's not just an audit. It's a transformation. », « In today's fast-paced world », « unlock your team's full potential », le titre à trous et le tiret disparaissent, sans fait ajouté. La sortie garde les 6 paragraphes de avant.md : chaque ligne vide de sens se réécrit avec les faits déjà présents au lieu d'être supprimée. La référence humaine est evals/corpus/publicite/en-04-automation-audit-linkedin/apres.md; elle retire deux lignes (4 paragraphes) et ne sert ici que de modèle pour les tics et le ton.
+context:
+  scaffold_script: place-files.sh

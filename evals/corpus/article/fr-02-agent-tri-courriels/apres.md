@@ -1,0 +1,3 @@
+## Qu'est-ce qu'un agent de tri de courriels?
+
+Un agent de tri de courriels est un programme qui lit chaque courriel entrant, le range dans l'un de 4 dossiers et rédige un brouillon pour ceux qui demandent une réponse. Il n'envoie jamais rien sans qu'une personne ait validé le brouillon. Prenons un cabinet comptable de 9 personnes qui reçoit 180 courriels par jour. De ce nombre, 35 %, soit 63 courriels, exigent une réponse. L'agent sort ces 63 courriels du lot et leur prépare un brouillon, et c'est là que l'équipe gagne du temps. Si votre équipe passe ses matinées dans la boîte de réception, c'est par cette tâche que je commencerais.
