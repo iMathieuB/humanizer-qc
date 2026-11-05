@@ -7,6 +7,6 @@ allowed_tools: [Read, Glob, Grep, Skill, Write, Edit, Bash]
 
 Voici la section anglaise de l'article sur le temps passé aux soumissions. Passe-la dans le humanizer.
 
-humanizer mode=pipeline type=article lang=en fichier=avant.md sortie=sortie.md original=avant.md
+humanizer-qc mode=pipeline type=article lang=en fichier=avant.md sortie=sortie.md original=avant.md
 
 Input files: avant.md

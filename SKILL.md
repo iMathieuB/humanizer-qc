@@ -1,5 +1,5 @@
 ---
-name: humanizer
+name: humanizer-qc
 metadata:
   version: "3.0.1"
 description: >-

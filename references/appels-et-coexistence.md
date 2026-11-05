@@ -7,7 +7,7 @@ Lis ce fichier avant toute réponse en mode pipeline, et chaque fois que `passag
 Un skill ou un script de publication appelle humanizer avec une ligne de paramètres, dans cet ordre, chaque paramètre facultatif :
 
 ```
-humanizer mode=pipeline type=article lang=fr fichier=<chemin> sortie=<chemin> original=<chemin> passages=<plages> auteur=texte-auteur exceptions=quote
+humanizer-qc mode=pipeline type=article lang=fr fichier=<chemin> sortie=<chemin> original=<chemin> passages=<plages> auteur=texte-auteur exceptions=quote
 ```
 
 - `fichier` : le fichier à réviser, un seul par appel. Pour une paire FR et EN (article ou page publiés dans les deux langues), l'appelant fait un appel par fichier, et chaque appel rend sa propre sortie complète (STATUT, Version finale, Changements, Vérification).

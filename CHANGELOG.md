@@ -1,10 +1,10 @@
-# Journal des modifications : humanizer
+# Journal des modifications : humanizer-qc
 
 Le champ `metadata.version` du frontmatter de SKILL.md, le `__version__` de `scripts/verif_humanizer.py` et la première entrée ci-dessous doivent toujours concorder.
 
-## 3.0.1 (2026-11-04), première version publique
+## 3.0.1 (2026-11-05), première version publique
 
-Version dérivée de humanizer 2.8.0 de Siqi Chen (https://github.com/blader/humanizer, licence MIT), refaite pour le français du Québec et l'anglais. Cette édition suit sa propre numérotation : elle ne correspond pas aux versions 3.x publiées depuis dans le dépôt d'origine.
+Version dérivée de humanizer 2.8.0 de Siqi Chen (https://github.com/blader/humanizer, licence MIT), refaite pour le français du Québec et l'anglais. Cette édition suit sa propre numérotation : elle ne correspond pas aux versions 3.x publiées depuis dans le dépôt d'origine. Elle est publiée sous le nom humanizer-qc, pour ne pas se confondre avec le skill d'origine une fois installée.
 
 ### Repris de la 2.8.0
 - Les 33 patrons d'origine (P01 à P33), déplacés dans `references/patterns-en.md`, sourcés et non réécrits. Seuls changements : numérotation `Pnn`, tirets retirés hors des blocs « Before », lignes « False positive » et « Sources » ajoutées.

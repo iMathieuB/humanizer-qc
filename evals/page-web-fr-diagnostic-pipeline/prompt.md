@@ -7,6 +7,6 @@ allowed_tools: [Read, Glob, Grep, Skill, Write, Edit, Bash]
 
 Passe humanizer sur le haut de la page du diagnostic d'automatisation.
 
-humanizer mode=pipeline type=page_web lang=fr fichier=avant.md sortie=sortie.md original=avant.md
+humanizer-qc mode=pipeline type=page_web lang=fr fichier=avant.md sortie=sortie.md original=avant.md
 
 Input files: avant.md
