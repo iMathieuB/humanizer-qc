@@ -68,6 +68,7 @@ Billet de blogue à indexer et à faire citer par les moteurs de réponse, en fr
 - P46 Ouverture « Dans un monde où »
 - P50 Connecteurs et formules de liaison lourds (fr)
 - P53 Annonces et survols en français (fr)
+- P81 Phrase trop longue à l'écrit, P82 Virgules sans fonction, P83 Phrase sans verbe conjugué (fr); P81 et P82 (en)
 
 ## 6. Seuils du script pour ce type
 
@@ -77,7 +78,9 @@ Billet de blogue à indexer et à faire citer par les moteurs de réponse, en fr
 | Triades, `warning` au-delà (pour 1 000 mots) | 3 |
 | Staccato : phrases consécutives de 3 mots ou moins | 3, `warning` |
 | CV minimal des phrases (si 12 phrases ou plus) | 0,35 |
-| Phrase longue, mots | aucun |
+| Phrase longue, mots | 30, `warning` |
+| Virgules dans une phrase, au-delà de | 3, `warning` |
+| Phrase sans verbe conjugué (français) | `warning` |
 | Gras non numérique, `warning` au-delà (pour 1 000 mots) | 4 |
 | Listes à intitulé en gras | `warning` |
 | Émojis | 👉 permis une fois; tout autre émoji `warning` |
@@ -108,6 +111,7 @@ Ces seuils sont ceux de verif_humanizer.py; en cas d'écart, le script fait foi.
 - [ ] Aucune section ne finit-elle sur un résumé d'elle-même?
 - [ ] Aucun deux-points d'annonce ajouté dans une phrase de corps?
 - [ ] Chaque paragraphe tient-il sur une ligne, et leur nombre est-il le même qu'à l'entrée?
+- [ ] Aucune phrase de plus de 30 mots, aucune virgule sans fonction, un verbe conjugué dans chaque phrase?
 
 ## 9. Exemple court
 

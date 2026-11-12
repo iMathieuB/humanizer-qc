@@ -2,7 +2,7 @@
 
 Lis l'index, puis seulement les patrons utiles : Grep sur `^### Pnn` (par exemple `^### P51`). Ne lis pas le fichier en entier. Niveaux : `mesure` (étude ou mesure quantitative), `guide` (guide éditorial ou institutionnel, dont Wikipédia), `blogue` (billet d'éditeur ou de praticien), `maison` (règle du skill : formule relevée par sa propre évaluation, ou rejet documenté dans le profil de voix de l'auteur, qui passe avant les trois autres pour sa voix). Identifiants partagés avec `patterns-en.md`. Vérification : constat de `scripts/verif_humanizer.py`, ou `lecture`. Un tic isolé ne prouve rien; cherche les grappes. Cette passe rapproche le texte de la voix de son auteur : ce n'est pas un outil d'indétectabilité.
 
-Sections : index, voix et souffle, patrons communs, patrons propres au français, particularités québécoises et typographie, faux positifs en français, signes humains à préserver.
+Sections : index, voix et souffle, patrons communs, patrons propres au français, règles maison de la 3.1, particularités québécoises et typographie, faux positifs en français, signes humains à préserver.
 
 ## Index
 
@@ -42,6 +42,9 @@ Sections : index, voix et souffle, patrons communs, patrons propres au français
 | P72 | Slogans en fragments et impératifs empilés | blogue | publicite | exclamation |
 | P73 | Formule aspirationnelle creuse | blogue | publicite, page_web | lecture |
 | P74 | Distracteurs invraisemblables | mesure | formation | lecture |
+| P81 | Phrase trop longue à l'écrit | maison | tous | long_sentence |
+| P82 | Virgules sans fonction | maison | tous | comma_load |
+| P83 | Phrase sans verbe conjugué | maison | article, page_web, formation, general | verbless |
 
 ## Voix et souffle
 
@@ -58,6 +61,8 @@ Une phrase retirée ne laisse pas de trou : rattache la précédente et la suiva
 Jamais de phrase de remplissage pour combler un vide : coupe, ou reprends un fait déjà présent dans le texte.
 
 Hors script parlé, pas de suite de phrases courtes juxtaposées ni de paragraphe réduit à un fragment : garde la variation de longueur de l'auteur.
+
+Phrase par phrase, sur tout brouillon de l'assistant : une phrase de plus de 30 mots se coupe au point (P81), une virgule que la phrase ne réclame pas se retire (P82), et hors script parlé chaque phrase a son verbe conjugué (P83).
 
 Un texte de référence, une politique ou une fiche technique garde une voix neutre, sans opinion ni « je ».
 
@@ -692,6 +697,64 @@ Niveau : blogue · Origine : recherche · Types : page_web, publicite, formation
 
 **Sources.** https://digitad.ca/comment-savoir-texte-genere-par-chatgpt/; https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 
+## Règles maison de la 3.1 (P81 à P83)
+
+Règles du skill sur la forme des phrases, ajoutées en 3.1.0. Elles ne viennent pas de la recherche, et leurs exemples sont fabriqués. Les numéros P75 à P80 ne sont pas publiés.
+
+### P81. Phrase trop longue à l'écrit
+
+Niveau : maison · Origine : maison · Types : tous · Vérification : long_sentence
+
+**Repère.** Phrase de plus de 30 mots (25 en publicité) qui empile une condition, une incise et une conséquence. En script parlé, voir P68.
+
+**Correction.** Une idée par phrase. Coupe au point, là où l'idée change, et garde le lien logique dans la phrase suivante (reprise du sujet, « ensuite », « dans ce cas »). Le résultat est fait de phrases complètes, jamais d'un chapelet de fragments (P83, P64).
+
+**Avant**
+> Quand une facture fournisseur arrive par courriel, le système la lit, en extrait le fournisseur, la date et le montant, la compare au bon de commande, puis prépare l'écriture comptable, que le responsable des comptes approuve avant le paiement.
+
+**Après**
+> Quand une facture fournisseur arrive par courriel, le système la lit et en extrait le fournisseur, la date et le montant. Il la compare au bon de commande et prépare l'écriture comptable. Le responsable des comptes l'approuve avant le paiement.
+
+**Faux positif.** Une énumération que le lecteur doit voir d'un bloc, une clause contractuelle déjà approuvée (élément protégé), une citation.
+
+**Sources.** Règle maison du skill, 3.1.0
+
+### P82. Virgules sans fonction
+
+Niveau : maison · Origine : maison · Types : tous · Vérification : comma_load
+
+**Repère.** Virgule posée par habitude : avant « et », « ou » ou « puis » entre deux éléments courts, après un complément bref en tête de phrase, autour d'un mot qui n'est pas une incise. Plus de trois virgules dans une phrase : la phrase porte trop d'incises.
+
+**Correction.** Relis la phrase sans la virgule. Si le sens tient, retire-la. Si la virgule encadre une incise, donne à l'incise sa propre phrase ou retire son emballage. Garde la virgule d'une énumération, celle qui suit une longue subordonnée en tête de phrase et celle que la grammaire exige.
+
+**Avant**
+> À la page 3, vous cochez les choix retenus, puis, une fois le document relu, vous signez, juste en dessous.
+
+**Après**
+> Vous cochez les choix retenus à la page 3. Vous signez juste en dessous une fois le document relu.
+
+**Faux positif.** L'énumération simple (« le client, la date, les heures et les pièces »), la virgule décimale, la virgule d'une adresse ou d'une date.
+
+**Sources.** Règle maison du skill, 3.1.0
+
+### P83. Phrase sans verbe conjugué
+
+Niveau : maison · Origine : maison · Types : article, page_web, formation, general · Vérification : verbless
+
+**Repère.** Groupe nominal laissé en phrase par une coupe, ou écrit pour l'effet : « Dix heures par mois, sans engagement. », « Pas de surprise. », « Résultat immédiat. » La passe elle-même la crée souvent : un tic retiré emporte le verbe.
+
+**Correction.** Donne à la phrase un sujet et un verbe conjugué, ou rattache le fragment à sa voisine. N'invente rien : le verbe dit ce que le texte dit déjà.
+
+**Avant**
+> Dix heures d'accompagnement sur un mois, sans engagement pour la suite.
+
+**Après**
+> Le forfait compte dix heures d'accompagnement sur un mois, sans engagement pour la suite.
+
+**Faux positif.** Titres, intitulés, puces, étiquettes en gras (« **Délais.** »), lignes « étiquette : valeur », formules de politesse, réponse brève d'une FAQ suivie de la réponse complète (« Oui, selon les outils retenus. »), phrase nominale voulue d'un script parlé ou d'une publicité (constat en `info`). Le constat `verbless` est une heuristique : il manque des cas et se trompe parfois, la lecture phrase par phrase fait foi.
+
+**Sources.** Règle maison du skill, 3.1.0
+
 ## Particularités québécoises et typographie
 
 Ce sont des normes, pas des indices d'IA : applique-les à toute sortie en français (P56, constat `typography_fr`), sans conclure qu'un texte qui suit l'usage de France est généré.
@@ -721,7 +784,7 @@ Faux positifs en français. Laisse-les, ou corrige-les pour une autre raison (no
 7. **Vouvoiement.** Norme des documents remis au client; jamais de « tu » pour faire humain, et un seul registre par document.
 8. **« On » et « je » d'expert.** L'absence de jugement personnel est le trait observé chez ChatGPT en français (https://ar5iv.labs.arxiv.org/html/2306.05871, mesure); garde le « je recommande ». N'ajoute jamais un « je » absent de la source, artefact connu des humaniseurs (https://arxiv.org/html/2501.03437, mesure).
 9. **Termes techniques anglais du B2B québécois.** CRM, OCR, API : pas des calques au sens de l'OQLF. Le remplacement par synonyme crée des « expressions torturées » (https://arxiv.org/html/2402.03370, mesure).
-10. **Phrases courtes voulues.** Une phrase brève qui porte un chiffre fait partie du rythme. Le tic est le découpage systématique (source DAMAGE plus haut) et le staccato (P64).
+10. **Phrases courtes voulues.** Une phrase brève qui porte un chiffre fait partie du rythme. Le tic est le découpage systématique (source DAMAGE plus haut) et le staccato (P64). À l'écrit, la phrase brève garde son verbe (P83).
 11. **Répétitions voulues à l'oral.** Redire le chiffre clé aide l'auditeur d'une chronique; la FAQ AEO reprend le corps exprès (P45).
 12. **Une seule tournure impersonnelle, un tic isolé.** « Aucun indice isolé ne permet de démasquer un texte rédigé par une IA » (https://www.pangram.com/fr/signs-of-ai-writing, blogue).
 13. **Tiret ou espace avant « ; ! ? » chez un autre auteur.** Corrige-les selon les règles du skill sans les présenter comme des signes d'IA (https://leclaireur.fnac.com/article/612805-laffaire-tiret-cadratin-signe-ponctuation-symbole-ia/, blogue).

@@ -238,9 +238,57 @@ class TestChecks(unittest.TestCase):
         varied = " ".join(("Oui." if i % 2 else "Cette phrase est nettement plus longue que la précédente, et de loin.")
                           for i in range(12))
         self.assertFalse(sev(varied, "sentence_uniformity"))
-        long_one = " ".join(["mot"] * 32) + ".\n"
+        long_one = "Le client envoie " + " ".join(["mot"] * 29) + ".\n"  # 32 words
         self.assertEqual(sev(long_one, "long_sentence", kind="chronique"), ["warning"])
-        self.assertFalse(sev(long_one, "long_sentence", kind="article"))
+        for kind in ("article", "page_web", "formation", "general"):  # 30-word limit everywhere since 3.1.0
+            self.assertEqual(sev(long_one, "long_sentence", kind=kind), ["warning"], kind)
+        self.assertEqual(sev(long_one, "long_sentence", kind="publicite"), ["info"])
+        self.assertFalse(sev("Le client envoie " + " ".join(["mot"] * 27) + ".\n", "long_sentence"))
+        ids = {k: found(vh.analyze(long_one, "fr", k), "long_sentence")[0]["pattern_id"] for k in ("chronique", "general")}
+        self.assertEqual(ids, {"chronique": "P68", "general": "P81"})
+
+    def test_comma_load(self) -> None:
+        piled = "Le système, une fois branché, lit le bon, le classe, puis prépare la facture, sans autre saisie.\n"
+        self.assertEqual(sev(piled, "comma_load"), ["warning"])  # 5 commas
+        self.assertEqual(sev(piled, "comma_load", kind="publicite"), ["info"])
+        self.assertEqual(sev(piled, "comma_load", "en"), ["warning"])
+        self.assertFalse(sev("Le système lit le bon, le classe, puis prépare la facture.\n", "comma_load"))  # 2
+        self.assertFalse(sev("Les prix sont 1,5 $, 2,5 $, 3,5 $ et 4,25 $ selon le volume.\n", "comma_load"))  # decimals
+        self.assertEqual(vh.analyze(piled, "fr")["stats"]["sentences"]["commas_max"], 5)
+
+    def test_verbless(self) -> None:
+        for text in ("Dix heures d'accompagnement sur un mois, sans engagement pour la suite.\n", "Pas de pitch.\n",
+                     "Un prix clair pour vos trois départements.\n", "Avec la consigne, 7 sur 8.\n",
+                     "Trois agents dans vos outils et à votre nom, en service en six semaines.\n"):
+            self.assertEqual(sev(text, "verbless"), ["warning"], text)
+            self.assertEqual(sev(text, "verbless", kind="chronique"), ["info"], text)
+        for text in ("Le système prépare la pro forma.\n", "Le chef de département l'approuve avant l'envoi.\n",
+                     "Vous cochez les choix retenus et vous signez juste en dessous.\n", "Dites-le-moi avant de signer.\n",
+                     "Ce montant couvre toute la portée du forfait.\n", "Les travaux débutent dans les deux semaines.\n",
+                     "LibreOffice, une suite gratuite, offre le même genre d'outil.\n", "Le délai la désamorce.\n",
+                     "L'Agent #1 filtre le signal du bruit dès la première seconde.\n", "Surveille la boîte courriel.\n",
+                     "L'urgence et l'autorité court-circuitent la prudence.\n", "Voici l'offre révisée.\n",
+                     "Cet accompagnement pour PME comporte six étapes d'environ un mois.\n",
+                     "La page d'aide du fournisseur le réserve toujours aux clients américains.\n"):
+            self.assertFalse(sev(text, "verbless"), text)
+        # Not sentences to judge: label, label and value, greeting, closing, formula, list item, heading, footer.
+        for text in ("**Délais.** Les travaux débutent dans les deux semaines.\n", "Choix retenus :\n",
+                     "**Validité :** jusqu'au 11 décembre 2026.\n", "Bonjour Madame Tremblay,\n\nCordialement,\n",
+                     "Merci de votre confiance.\n", "- Table des tarifs par client.\n", "## Une offre claire\n",
+                     "*Atelier Boréal inc., cabinet-conseil, Montréal.*\n", "Oui.\n",
+                     "Le système appartient à Les Entreprises Jean T. Tremblay inc. Il reste à vous.\n"):
+            self.assertFalse(sev(text, "verbless"), text)
+        self.assertFalse(sev("No surprise fees.\n", "verbless", "en"))  # French only
+        self.assertEqual(vh.analyze("Pas de pitch. Pas de vente.\n", "fr")["stats"]["sentences"]["verbless"], 2)
+
+    def test_compare_sentence_form(self) -> None:
+        before = "Le forfait couvre dix heures d'accompagnement, sans engagement pour la suite.\n"
+        after = "Dix heures d'accompagnement sur un mois. Sans engagement pour la suite.\n"
+        r = vh.analyze(after, "fr", original=before)
+        self.assertEqual(r["compare"]["sentence_form"]["verbless"], {"original": 0, "output": 2})
+        self.assertIn("the pass must not add any", [f["message"] for f in found(r, "verbless") if f["line"] is None][0])
+        same = vh.analyze(before, "fr", original=before)
+        self.assertFalse([f for f in found(same, "verbless") + found(same, "long_sentence") if f["line"] is None])
 
     def test_bold(self) -> None:
         self.assertIn("warning", sev("Un **point** et un **autre** et un **troisième** ici.\n", "bold_density", kind="article"))

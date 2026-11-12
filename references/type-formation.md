@@ -62,6 +62,7 @@ Plan de cours, diapositives, cahier du participant, quiz, fiches de procédure, 
 - P59 Plan gabarit (fr); P06 Outline-like "Challenges and future prospects" sections (en)
 - P58 Majuscules superflues dans les titres (fr); P17 Title case in headings (en)
 - P62 Aucun détail propre au lecteur (fr)
+- P81 Phrase trop longue à l'écrit, P82 Virgules sans fonction, P83 Phrase sans verbe conjugué (fr); P81 et P82 (en)
 
 ## 6. Seuils du script pour ce type
 
@@ -71,7 +72,9 @@ Plan de cours, diapositives, cahier du participant, quiz, fiches de procédure, 
 | Triades, `warning` au-delà (pour 1 000 mots) | 4 |
 | Staccato : phrases consécutives de 3 mots ou moins | 3, `warning` |
 | CV minimal des phrases (si 12 phrases ou plus) | 0,30 |
-| Phrase longue, mots | 35, `info` |
+| Phrase longue, mots | 30, `warning` |
+| Virgules dans une phrase, au-delà de | 3, `warning` |
+| Phrase sans verbe conjugué (français) | `warning` |
 | Gras non numérique, `warning` au-delà (pour 1 000 mots) | 12 |
 | Listes à intitulé en gras | `info` |
 | Émojis | plus de 3 : `warning` |
@@ -100,6 +103,7 @@ Ces seuils sont ceux de verif_humanizer.py; en cas d'écart, le script fait foi.
 - [ ] Gras des termes clés, glossaire et numérotation conservés?
 - [ ] « courriel » et « » en français?
 - [ ] Chaque paragraphe tient-il sur une ligne, et leur nombre est-il inchangé?
+- [ ] Aucune phrase de plus de 30 mots, aucune virgule sans fonction, un verbe conjugué dans chaque phrase?
 
 ## 9. Exemple court
 

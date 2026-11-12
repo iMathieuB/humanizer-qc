@@ -2,6 +2,16 @@
 
 Le champ `metadata.version` du frontmatter de SKILL.md, le `__version__` de `scripts/verif_humanizer.py` et la première entrée ci-dessous doivent toujours concorder.
 
+## 3.1.0 (2026-11-12)
+
+### Forme des phrases
+- `SKILL.md` : règle dure 12. Aucune phrase de plus de 30 mots, aucune virgule sans fonction, un verbe conjugué dans chaque phrase hors script parlé, et la passe n'en crée pas. Pour garder le fichier sous 10 000 octets, deux phrases redondantes sont retirées (le score de détecteur dans l'introduction, les rejets du profil à l'Étape 0) et la règle 10 perd « ni paragraphe réduit à un fragment », que la règle 12 couvre.
+- Trois patrons de niveau `maison` dans les deux fichiers de langue : P81 (phrase trop longue à l'écrit), P82 (virgules sans fonction) et P83 (phrase sans verbe conjugué). Les numéros P75 à P80 ne sont pas publiés.
+- `scripts/verif_humanizer.py`. Le constat `long_sentence` passe à 30 mots en `warning` pour `article`, `page_web`, `formation` et `general`; `publicite` (25, `info`) et `chronique` (30, `warning`) ne changent pas. Nouveau constat `comma_load` : plus de trois virgules dans une phrase, virgules décimales exclues. Nouveau constat `verbless`, en français seulement : aucune forme conjuguée trouvée dans une phrase de prose; `warning` pour `article`, `formation` et `general`, `info` ailleurs. Avec `--compare`, avertissement si la sortie compte plus de phrases longues, de phrases chargées de virgules ou de phrases sans verbe que l'original (`compare.sentence_form`). Statistiques `sentences.commas_max` et `sentences.verbless`.
+- Le constat `verbless` est une heuristique : listes de formes conjuguées, terminaisons, pronoms sujets. Sur 2 871 phrases de textes d'affaires en français, il en a signalé 67, toutes sans verbe conjugué. Il en manque : « Une méthode valide. » passe, parce que « valide » est aussi une forme verbale. La lecture phrase par phrase fait foi.
+- `scripts/tests/test_verif.py` : trois tests de plus (`test_comma_load`, `test_verbless`, `test_compare_sentence_form`).
+- Les cinq fichiers `references/type-*.md` : patrons prioritaires, tableau des seuils et liste de contrôle mis à jour.
+
 ## 3.0.1 (2026-11-05), première version publique
 
 Version dérivée de humanizer 2.8.0 de Siqi Chen (https://github.com/blader/humanizer, licence MIT), refaite pour le français du Québec et l'anglais. Cette édition suit sa propre numérotation : elle ne correspond pas aux versions 3.x publiées depuis dans le dépôt d'origine. Elle est publiée sous le nom humanizer-qc, pour ne pas se confondre avec le skill d'origine une fois installée.

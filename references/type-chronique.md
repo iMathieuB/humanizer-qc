@@ -62,6 +62,7 @@ Oral préparé, expert-conseil qui pose un diagnostic, ton factuel et clinique, 
 - P67 Hésitations mécaniques
 - P69 Ton enjoué et éloge du sujet
 - P70 Appel à l'action générique
+- P82 Virgules sans fonction; P83 Phrase sans verbe conjugué, signalée sans être fautive : la phrase nominale voulue à l'oral reste (fr)
 
 ## 6. Seuils du script pour ce type
 
@@ -72,6 +73,8 @@ Oral préparé, expert-conseil qui pose un diagnostic, ton factuel et clinique, 
 | Staccato : phrases consécutives de 3 mots ou moins | 4, `warning` |
 | CV minimal des phrases (si 12 phrases ou plus) | 0,40 |
 | Phrase longue, mots | 30, `warning` |
+| Virgules dans une phrase, au-delà de | 3, `warning` |
+| Phrase sans verbe conjugué (français) | `info` |
 | Gras non numérique, `warning` au-delà (pour 1 000 mots) | 2 |
 | Listes à intitulé en gras | `warning` |
 | Émojis | chaque émoji `warning` |
@@ -102,6 +105,7 @@ Ces seuils sont ceux de verif_humanizer.py; en cas d'écart, le script fait foi.
 - [ ] Aucun nom de client ni détail qui rendrait un cas identifiable?
 - [ ] Le nombre de mots dits par section varie-t-il de 10 % au plus?
 - [ ] Chaque paragraphe tient-il sur une ligne, et leur nombre est-il inchangé?
+- [ ] Aucune phrase de plus de 30 mots ni virgule sans fonction, et chaque phrase sans verbe est-elle voulue à l'oral?
 
 ## 9. Lecture à voix haute et minutage
 

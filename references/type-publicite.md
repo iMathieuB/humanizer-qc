@@ -63,6 +63,7 @@ Annonces LinkedIn, Facebook et Instagram, et publications sociales (posts, lége
 - P71 Titre à trous
 - P70 Appel à l'action générique
 - P66 Verbes passe-partout (permettre, offrir, assurer) (fr)
+- P81 Phrase trop longue à l'écrit, P82 Virgules sans fonction; P83 Phrase sans verbe conjugué, signalée sans être fautive (fr)
 
 ## 6. Seuils du script pour ce type
 
@@ -73,6 +74,8 @@ Annonces LinkedIn, Facebook et Instagram, et publications sociales (posts, lége
 | Staccato : phrases consécutives de 3 mots ou moins | 3, `info` |
 | CV minimal des phrases (si 12 phrases ou plus) | 0,30 |
 | Phrase longue, mots | 25, `info` |
+| Virgules dans une phrase, au-delà de | 3, `info` |
+| Phrase sans verbe conjugué (français) | `info` |
 | Gras non numérique, `warning` au-delà (pour 1 000 mots) | tout gras `warning` |
 | Listes à intitulé en gras | `warning` |
 | Émojis | plus de 10 : `error`; 3 lignes ou plus qui commencent par un émoji : `warning` |
@@ -104,6 +107,7 @@ Ces seuils sont ceux de verif_humanizer.py; en cas d'écart, le script fait foi.
 - [ ] Rien d'inventé (phrase personnelle, chiffre)?
 - [ ] « Lien en bio » seulement si la bio mène à la page?
 - [ ] Texte brut, sans gras ni Markdown, pour LinkedIn et Facebook?
+- [ ] Aucune phrase de plus de 25 mots ni virgule sans fonction, et chaque phrase sans verbe est-elle voulue?
 
 ## 9. Limites de caractères par plateforme
 

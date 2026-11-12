@@ -29,7 +29,7 @@ from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from typing import Any, Optional
 
-__version__ = "3.0.1"
+__version__ = "3.1.0"
 LOG = logging.getLogger("verif_humanizer")
 
 # Built with chr() so the file never holds these characters literally.
@@ -40,10 +40,11 @@ DASH_CLASS = "[" + re.escape(EM_DASH + EN_DASH) + "]"
 SP = "[ " + NBSP + NNBSP + "]"
 
 CHECKS: tuple[str, ...] = (
-    "dash", "kill_list", "triad", "staccato", "sentence_uniformity", "long_sentence", "bold_density",
-    "inline_header_list", "emoji", "curly_quotes", "title_case", "not_x_but_y", "hedging_stack", "hard_wrap",
-    "exclamation", "typography_fr", "paragraph_count", "numbers", "urls", "timecodes", "headings", "spoken_length",
-    "bold_numeric", "protected_emoji")
+    "dash", "kill_list", "triad", "staccato", "sentence_uniformity", "long_sentence", "comma_load", "verbless",
+    "bold_density", "inline_header_list", "emoji", "curly_quotes", "title_case", "not_x_but_y", "hedging_stack",
+    "hard_wrap", "exclamation", "typography_fr", "paragraph_count", "numbers", "urls", "timecodes", "headings",
+    "spoken_length", "bold_numeric", "protected_emoji")
+COMPARE_CHECKS = CHECKS[CHECKS.index("paragraph_count"):]
 TYPES: tuple[str, ...] = ("article", "page_web", "publicite", "chronique", "formation", "general")
 TYPE_ALIASES: dict[str, str] = {"page": "page_web", "page_service": "page_web", "pub": "publicite"}
 SEVERITY_ORDER = {"error": 0, "warning": 1, "info": 2}
@@ -55,21 +56,28 @@ TEXT_KINDS = ("prose", "list", "heading", "blockquote")
 _TH_KEYS = ("triads_per_1000", "staccato_run", "staccato_severity", "cv_min", "long_sentence_words",
             "long_sentence_severity", "bold_non_numeric_per_1000", "bold_numeric_exempt", "bold_any_warning",
             "inline_header_list_severity", "emoji_policy", "emoji_limit", "emoji_limit_severity",
-            "exclamation_warning_from", "section_char_limit")
+            "exclamation_warning_from", "section_char_limit", "comma_max", "comma_severity", "verbless_severity")
+# The last three columns and the 30-word limit outside chronique and publicite date from 3.1.0 (P81 to P83).
 THRESHOLDS: dict[str, dict[str, object]] = {t: {"vocab_density": {"fr": 6, "en": 8}, "cv_min_sentences": 12,
                                                 **dict(zip(_TH_KEYS, row))} for t, row in {
-    "article": (3, 3, "warning", 0.35, None, None, 4, True, False, "warning", "pointer_once", None, None, 2, None),
-    "page_web": (4, 3, "info", 0.30, None, None, 8, True, False, "info", "each", None, None, 2, None),
-    "publicite": (6, 3, "info", 0.30, 25, "info", None, False, True, "warning", "limit", 10, "error", 3, 3000),
-    "chronique": (3, 4, "warning", 0.40, 30, "warning", 2, False, False, "warning", "each", None, None, 3, None),
-    "formation": (4, 3, "warning", 0.30, 35, "info", 12, True, False, "info", "limit", 3, "warning", 2, None),
-    "general": (3, 3, "warning", 0.35, None, None, 4, False, False, "warning", "each", None, None, 2, None),
+    "article": (3, 3, "warning", 0.35, 30, "warning", 4, True, False, "warning", "pointer_once", None, None, 2, None,
+                3, "warning", "warning"),
+    "page_web": (4, 3, "info", 0.30, 30, "warning", 8, True, False, "info", "each", None, None, 2, None,
+                 3, "warning", "info"),
+    "publicite": (6, 3, "info", 0.30, 25, "info", None, False, True, "warning", "limit", 10, "error", 3, 3000,
+                  3, "info", "info"),
+    "chronique": (3, 4, "warning", 0.40, 30, "warning", 2, False, False, "warning", "each", None, None, 3, None,
+                  3, "warning", "info"),
+    "formation": (4, 3, "warning", 0.30, 30, "warning", 12, True, False, "info", "limit", 3, "warning", 2, None,
+                  3, "warning", "warning"),
+    "general": (3, 3, "warning", 0.35, 30, "warning", 4, False, False, "warning", "each", None, None, 2, None,
+                3, "warning", "warning"),
 }.items()}
 
 # Pattern IDs per check: (fr, en).
 PATTERN_IDS: dict[str, tuple[Optional[str], Optional[str]]] = {
-    "dash": ("P54", "P14"), "triad": ("P64", "P10"), "staccato": ("P64", "P31"), "long_sentence": ("P68", "P68"),
-    "bold_density": ("P57", "P15"), "inline_header_list": ("P57", "P16"), "emoji": ("P57", "P18"),
+    "dash": ("P54", "P14"), "triad": ("P64", "P10"), "staccato": ("P64", "P31"), "long_sentence": ("P81", "P81"),
+    "comma_load": ("P82", "P82"), "verbless": ("P83", None), "bold_density": ("P57", "P15"), "inline_header_list": ("P57", "P16"), "emoji": ("P57", "P18"),
     "curly_quotes": ("P56", "P19"), "title_case": ("P58", "P17"), "not_x_but_y": ("P63", "P09"),
     "hedging_stack": ("P61", "P24"), "exclamation": ("P72", "P72"), "typography_fr": ("P56", None),
     "vocabulaire": ("P51", "P07"), "formules": ("P50", "P23"), "ouvertures": ("P46", "P46"),
@@ -78,7 +86,9 @@ KILL_SEVERITY = {"vocabulaire": "info", "formules": "warning", "ouvertures": "wa
                  "ponctuation": "info", "structure": "error"}
 SOURCES = {"sentence_uniformity": "references/patterns-en.md P38 and P45; SKILL.md hard rule 10",
            "hard_wrap": "SKILL.md hard rule 6",
-           **{c: "SKILL.md hard rules 2, 5 and 7" for c in CHECKS[16:]}}
+           **{c: "SKILL.md hard rule 12; references/patterns-fr.md P81 to P83"
+              for c in ("long_sentence", "comma_load", "verbless")},
+           **{c: "SKILL.md hard rules 2, 5 and 7" for c in COMPARE_CHECKS}}
 
 WORD_RE = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿœŒ0-9]+(?:[’'-][A-Za-zÀ-ÖØ-öø-ÿœŒ0-9]+)*")
 SPLIT_RE = re.compile(r"(?<=[.!?…])\s+(?=[«\"A-ZÀ-ÖØ-Þ0-9])|(?<=:)\s+(?=[A-ZÀ-Þ])")
@@ -136,6 +146,179 @@ TYPO_FR = ((r"\$\s?\d", "warning", "dollar sign before the number (write 1 300 $
            ("«(?!" + SP + ")", "info", "no space after «"), ("(?<!" + SP + ")»", "info", "no space before »"),
            (r"(?<=[\w)»*]):(?=\s|$|\*)", "info", "no space before the colon"),
            (r" [?!;]", "info", "plain space before ? ! or ; (Quebec usage: no space)"))
+
+# Sentence form, P81 to P83 (3.1.0). The French verb test is a heuristic built to be generous: a sentence it
+# reports as verbless almost always is one, and it misses some. Reading every sentence stays the real check.
+COMMA_RE = re.compile(r"(?<!\d),|,(?!\d)")
+SENTENCE_END = (".", "!", "?", ELLIPSIS)
+FR_TOKEN_RE = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿœŒ]+(?:['" + RSQUO + r"-][A-Za-zÀ-ÖØ-öø-ÿœŒ]+)*|\d+|[,;:()«»]")
+FR_FORMULA_RE = re.compile(
+    r"^(?:merci|bonjour|bonsoir|salut|bravo|félicitations|pardon|désolée?|cordialement|salutations|au plaisir|"
+    r"à bientôt|à demain|à la semaine prochaine|d'accord|bien sûr|avec plaisir|bonne (?:journée|soirée|semaine|fin|"
+    r"continuation|lecture|chance|écoute)|bon (?:week-end|matin|après-midi|retour|succès|courage)|joyeu(?:x|ses))\b")
+FR_VERB_FORMS = frozenset((
+    "suis es est sommes êtes sont étais était étions étiez étaient serai seras sera serons serez seront serais serait "
+    "serions seriez seraient sois soit soyons soyez soient fut furent ai as a avons avez ont avais avait avions aviez "
+    "avaient aurai auras aura aurons aurez auront aurais aurait aurions auriez auraient aie aies ait ayons ayez aient "
+    "eut eurent vais vas va allons allez vont irai iras ira irons irez iront irais irait iraient aille aillent fais "
+    "fait faisons faites font ferai feras fera ferons ferez feront ferais ferait feraient fasse fassent peux peut "
+    "pouvons pouvez peuvent pourrai pourras pourra pourrons pourrez pourront pourrais pourrait pourraient puisse "
+    "puissent veux veut voulons voulez veulent voudrai voudra voudrons voudrez voudront voudrais voudrait voudraient "
+    "veuille veuillez dois doit devons devez doivent devrai devra devrons devrez devront devrais devrait devraient "
+    "doive sais sait savons savez savent saurai saura saurons saurez sauront saurais saurait sache sachez vois voit "
+    "voyons voyez voient verrai verra verrons verrez verront verrais verrait prévoit prévoient revoit viens vient "
+    "venons venez viennent viendra viendront viendrait tiens tient tenons tenez tiennent tiendra devient deviennent "
+    "revient reviennent obtient obtiennent contient contiennent maintient maintiennent retient retiennent appartient "
+    "appartiennent soutient soutiennent convient conviennent parvient parviennent provient proviennent intervient "
+    "interviennent prévient survient détient prends prend prenons prenez prennent prendra prendront prendrait "
+    "comprends comprend comprenons comprenez comprennent apprends apprend apprennent apprenez reprend reprennent "
+    "reprenez entreprend surprend mets met mettons mettez mettent mettra permet permettent permettez permettra promet "
+    "promettent transmet transmettent transmettez admet soumet soumettent remet remettent émet dis dit disons dites "
+    "disent dira diront dirait prédit lis lit lisons lisez lisent lira relit relisez écris écrit écrivons écrivez "
+    "écrivent écrira décrit décrivent inscrit inscrivent inscrivez prescrit suit suivons suivez suivent suivra "
+    "poursuit poursuivent vit vivent vivons connais connaît connaissons connaissez connaissent paraît paraissent "
+    "apparaît apparaissent disparaît disparaissent reconnaît reconnaissent naît crois croit croyons croyez croient "
+    "boit boivent reçois reçoit recevons recevez reçoivent recevra recevrez recevront aperçoit conçoit conçoivent "
+    "perçoit perçoivent pars part partons partez partent sors sort sortons sortez sortent sers sert servons servez "
+    "servent sent sentons sentez sentent dort dorment repart ressort ressent ouvre ouvrent ouvrons ouvrez couvre "
+    "couvrent couvrons couvrez découvre découvrent souffre souffrent réponds répond répondent répondons répondez "
+    "répondra attends attend attendent attendons attendez entends entend entendent rend rendent rendons rendez vend "
+    "vendent vendons vendez perd perdent perdons perdez dépend dépendent correspond correspondent descend descendent "
+    "défend défendent étend étendent tend tendent prétend suspend confond résout résolvent rejoint rejoignent "
+    "joignent joignez atteint atteignent craint craignent produisent produisons réduit réduisent conduit conduisent "
+    "construit construisent traduit traduisent introduit introduisent déduit déduisent suffit suffisent plaît "
+    "plaisent vaut valent vaudra vaudrait faut faudra faudrait fallait inclut incluent conclut concluent exclut "
+    "excluent courent parcourt parcourent meurt meurent finit choisit réussit fournit remplit établit définit "
+    "garantit agit réagit réfléchit investit réunit saisit convertit grandit ralentit aboutit avertit bâtit élargit "
+    "enrichit franchit subit unit vieillit obéit rétablit répartit raccourcit alourdit éclaircit voici voilà").split())
+# Third person singular of common -er verbs. Many are also nouns or adjectives ("facture", "ferme"), so they count
+# as a verb only when no determiner, preposition or number comes right before.
+FR_ER_FORMS = frozenset((
+    "accepte accompagne accorde accélère achète active adapte additionne adresse affiche affirme agrège aide ajoute "
+    "ajuste alerte alimente allège alloue améliore amène analyse annonce annule anticipe appelle applique apporte "
+    "apprécie approuve appuie archive arrête arrive assemble assigne associe assume assure attache attire attribue "
+    "augmente autorise automatise avance avise baisse bascule bloque boucle branche brise cache calcule calibre cause "
+    "centralise cesse change charge cherche chiffre cible circule cite clarifie classe clique coche code collabore "
+    "collecte combine commande commence communique compare compense compile complète complique compose compte "
+    "concentre concerne confie configure confirme connecte conseille conserve considère consigne consiste consolide "
+    "consomme constate constitue consulte contacte continue contribue contrôle convoque copie corrige coupe coûte "
+    "crée croise cumule date déborde débute décide déclare déclenche décompose découpe dégage délègue demande démarre "
+    "démontre dépasse dépense déplace dépose désigne dessine détaille détecte détermine développe devine dicte "
+    "diffère diffuse diminue dirige discute dispose distingue distribue divise documente domine donne double doute "
+    "dresse dure échange échappe éclaire économise écoute écrase édite efface effectue élimine émane embarque emploie "
+    "emporte encadre enchaîne engage enlève enregistre enseigne entraîne entre envoie épargne équilibre équipe essaie "
+    "estime étale étudie évalue évite évolue examine exécute exerce exige existe explique exploite explore exporte "
+    "expose exprime facilite facture fausse ferme figure filtre finance fixe fonctionne fonde force forme formule "
+    "frappe fusionne gagne garde génère gère glisse gonfle groupe guide habite hésite identifie ignore illustre "
+    "imagine implique importe impose imprime indique influence informe initie injecte inspire installe intègre "
+    "interroge invite isole jette joue juge justifie laisse lance libère lie limite liste livre localise loge loue "
+    "manipule manque marche marque masque mène mentionne mérite mesure migre mobilise modifie monte montre multiplie "
+    "navigue nécessite négocie nettoie nomme normalise note notifie numérise numérote observe occupe offre opère optimise "
+    "ordonne organise oriente oublie paie parle partage participe passe paye pense perdure persiste pèse pilote place "
+    "planifie plafonne porte pose possède pousse pratique précède précise préfère prépare présente préserve presse "
+    "prête priorise procure profite programme progresse projette prolonge propose protège prouve provoque publie "
+    "quitte raconte rajoute ramène range rappelle rapporte rapproche rassemble rassure rate rattache réalise "
+    "recalcule recense recherche réclame recommande recopie récupère rédige redonne réfère reflète refuse regarde "
+    "regroupe règle rejette relance relève relie remarque rembourse remonte remplace rencontre renforce renouvelle "
+    "renseigne rentre renvoie répare répète réplique repose représente réserve résiste respecte ressemble reste "
+    "résume retarde retire retourne retrouve réutilise révèle révise risque roule saute sauve sauvegarde scanne "
+    "sélectionne semble sépare signale signe signifie simplifie simule situe sollicite sonne souhaite soulève "
+    "souligne stocke structure subsiste suggère supporte suppose supprime surveille synchronise tarde télécharge "
+    "téléverse termine teste tire tombe touche tourne trace traite transfère transforme travaille traverse trie "
+    "trompe trouve tue unifie utilise valide varie vérifie verse veille vide vise visite vote achève atteste capte "
+    "comporte consacre découle dénote désactive désamorce écarte élève émerge encourage engendre englobe entame "
+    "entoure épuise expédie favorise fige freine gaspille gêne grimpe hausse héberge incarne incite incombe insiste "
+    "lève mêle mise motive néglige nuance occasionne oppose pénalise plaide plonge prime prive puise raccorde "
+    "rallonge rattrape recule redresse relâche rémunère renonce repère repousse résulte retombe sature serre "
+    "soigne suscite surcharge surestime témoigne tolère tranche transite transporte triple valorise vante "
+    "verrouille voyage").split())
+FR_VERB_SUFFIX_RE = re.compile(r"(?:ez|ait|aient|rais|rai|ront|rons|era|ira|dra|vra|rra|ura|issons|issent)$")
+FR_NOT_VERB = frozenset((
+    "assez chez nez rez forfait lait trait portrait souhait extrait retrait attrait parfait bienfait méfait abstrait "
+    "distrait front affront vrai frais marais patrons environs citrons poissons boissons frissons buissons client "
+    "patient ingrédient récent différent présent absent urgent agent argent talent accident incident précédent "
+    "excellent évident fréquent permanent pertinent cohérent content lent dent vent cent souvent parent "
+    "transparent apparent concurrent président prudent intelligent compétent latent contingent "
+    "continent adolescent innocent décent violent accent couvent torrent orient").split())
+FR_MENT_VERBS = frozenset(("aiment estiment ferment confirment forment nomment résument consomment expriment "
+                           "impriment suppriment transforment informent réclament programment affirment calment "
+                           "animent compriment déforment priment sèment").split())
+FR_SUBJECTS = frozenset("je tu il elle on ils elles ça cela ceci qui ne se".split())
+FR_INVERTED = frozenset("je tu il elle on nous vous ils elles moi toi le la les lui leur y en ce t".split())
+FR_PREPOSITIONS = frozenset("à de pour avec sans chez par sur sous vers entre selon contre devant derrière "
+                            "envers parmi malgré".split())
+FR_DETERMINERS = frozenset("le la les un une des du ce cet cette ces mon ma mes ton ta tes son sa ses notre nos "
+                           "votre vos leur leurs chaque plusieurs quelques tout toute tous toutes".split())
+FR_NOUN_CONTEXT = FR_DETERMINERS | FR_PREPOSITIONS | frozenset(
+    "l d au aux quel quelle quels quelles aucun aucune dans depuis pendant avant après dès comme seul "
+    "seule même autre autres premier première dernier dernière nouveau nouvelle bon bonne grand grande petit petite "
+    "prochain prochaine deux trois quatre cinq six sept huit neuf dix".split())
+FR_NUMBER_WORDS = frozenset("deux trois quatre cinq six sept huit neuf dix cent mille".split())
+CUT_END_RE = re.compile(r"(?:(?:^|[\s.])[A-ZÀ-Þ]|\b(?:inc|ltée|enr|ltd|corp|janv|févr|sept|oct|nov|déc))\.$")
+
+
+def _is_verb_fr(word: str, prev: str, nxt: str, raw: str) -> bool:
+    """One lowercase French word: a conjugated form, by list, by ending, or by its place in the clause.
+
+    prev is the previous word, "" at the start of a clause, "," after a comma, a closing bracket or quote, or a
+    number: there a word in -e counts only when its object follows ("…, offre le même outil").
+    """
+    if word in FR_VERB_FORMS:
+        return word != "a" or raw.endswith("a")  # the letter in "Option A" is not the verb
+    if len(word) >= 4 and word not in FR_NOT_VERB:
+        if word.endswith("ent"):
+            if word in FR_MENT_VERBS or not word.endswith("ment"):
+                return True
+        elif FR_VERB_SUFFIX_RE.search(word):
+            return True
+    if prev in FR_NOUN_CONTEXT or not word.endswith("e") or len(word) < 5:
+        return word in FR_ER_FORMS and prev not in FR_NOUN_CONTEXT and prev not in ("", ",")
+    if prev == "":  # "Surveille la boîte."
+        return word in FR_ER_FORMS and nxt in FR_DETERMINERS
+    followed = nxt in FR_DETERMINERS or nxt in FR_NUMBER_WORDS or nxt.isdigit()  # "prépare la", "comporte six"
+    return followed if prev == "," else followed or word in FR_ER_FORMS
+
+
+def has_finite_verb_fr(sentence: str) -> bool:
+    """True when a French sentence seems to hold a conjugated verb (heuristic, P83)."""
+    tokens = [t.replace(RSQUO, "'") for t in FR_TOKEN_RE.findall(sentence)]
+    prev, pending = "", False  # previous word of the clause; a subject or "ne" waiting for its verb
+    for index, raw in enumerate(tokens):
+        low = raw.lower()
+        if not low[0].isalpha():
+            prev, pending = ("," if low.isdigit() or low in ",)»" else ""), pending and low.isdigit()
+            continue
+        if pending:
+            return True
+        nxt = tokens[index + 1].lower() if index + 1 < len(tokens) else ""
+        nxt = "le" if nxt.startswith("l'") else nxt
+        head, _, rest = low.partition("'")
+        if rest:  # elision: j'utilise, n'est, s'ajoute, qu'il, l'approuve, d'abord
+            if head in ("j", "n", "m", "t") or (head == "s" and rest not in ("il", "ils")):
+                return True
+            if rest in FR_SUBJECTS:
+                prev, pending = rest, True
+                continue
+            low, prev = rest, {"d": "de", "l": prev}.get(head, "que")
+        if "-" in low:  # inversion or imperative with a pronoun: dites-le-moi, est-ce, peut-on
+            parts = low.split("-")
+            if low != "rendez-vous" and all(part in FR_INVERTED for part in parts[1:]):
+                return True
+            if _is_verb_fr(parts[-1], "le", "", parts[-1]):  # "court-circuitent": lists and endings only
+                return True
+            prev = low
+            continue
+        if low in FR_SUBJECTS or (low in ("nous", "vous") and prev not in FR_PREPOSITIONS):
+            prev, pending = low, True
+            continue
+        before = tokens[index - 2].lower() if index >= 2 else ""
+        if (prev in ("le", "la", "les") and low in FR_ER_FORMS and before[:1].isalpha()
+                and before not in FR_NOUN_CONTEXT and before not in ("et", "ou", "ni", "mais")):
+            return True  # object pronoun, then the verb: "Le délai la désamorce."
+        if _is_verb_fr(low, prev, nxt, raw[-len(low):]):
+            return True
+        prev = low
+    return False
 
 
 @dataclass
@@ -425,7 +608,7 @@ class Analyzer:
         self.skip_quotes, self.allow_footer_dash = skip_quotes, allow_footer_dash or content_type == "article"
         self.ignore, self.ignore_lines = tuple(ignore), tuple(ignore_lines)
         kill_list = load_kill_list() if kill_list is None else kill_list
-        kill_list = kill_list if kill_list.get("_compiled") else compile_kill_list(kill_list)
+        self.kill_list = kill_list = kill_list if kill_list.get("_compiled") else compile_kill_list(kill_list)
         ignored = {_norm(i).strip() for i in self.ignore}
         self.entries = [e for e in kill_list[lang] if e["norm"] not in ignored and content_type not in e["exempt_types"]]
         self.lines = classify_lines(self.text)
@@ -613,7 +796,43 @@ class Analyzer:
         for s in self.stat_sentences if limit else []:
             if s.words > limit:
                 self.add("long_sentence", str(self.th["long_sentence_severity"]), s.line, s.start + 1,
-                         f"sentence of {s.words} words (limit {limit})")
+                         f"sentence of {s.words} words (limit {limit}): cut it at a full stop, one idea per sentence",
+                         pattern_id="P68" if self.type == "chronique" else "default")
+
+    # 6b, 6c. commas that pile up, sentences without a conjugated verb (3.1.0)
+    def check_sentence_form(self) -> None:
+        eligible = {l.number for l in self.text_lines()}
+        limit, self.comma_max_seen, self.verbless_count = int(self.th["comma_max"]), 0, 0
+        after_initial = (0, False)  # (line, the previous sentence stopped on an initial such as "Jean T.")
+        for s in self.sentences:
+            if s.line not in eligible or s.kind not in ("prose", "list"):
+                continue
+            line = self.by_number[s.line]
+            text = neutralize(line.text, line.base)[s.start:s.end]
+            commas = len(COMMA_RE.findall(text))
+            self.comma_max_seen = max(self.comma_max_seen, commas)
+            if commas > limit:
+                self.add("comma_load", str(self.th["comma_severity"]), s.line, s.start + 1,
+                         f"{commas} commas in one sentence (limit {limit}): cut the sentence, or drop the commas "
+                         "that separate nothing (a plain enumeration may stay)")
+            # Not a sentence to judge: a bold run-in label, a "label: value" line, a name cut on its initial,
+            # a line with no final stop (greeting, caption, signature), a polite formula, a byline or a footer
+            # (whole line in emphasis, or items split by a middle dot).
+            label = any(m.start() <= s.start and s.end <= m.end() for m in BOLD_RE.finditer(mask_line(line.text)))
+            label = (label or chr(0xB7) in line.text or chr(0x2192) in line.text
+                     or bool(re.fullmatch(r"\s*([*_]).*\1\s*", line.text)))
+            initial = bool(CUT_END_RE.search(text))
+            cut_name, after_initial = after_initial == (s.line, True), (s.line, initial)
+            body = text.rstrip("»\"" + RDQUO + ") ")
+            cut_name = cut_name or text.count(")") > text.count("(")  # tail of a bracket cut on an abbreviation
+            if (self.lang != "fr" or s.kind != "prose" or s.words < 2 or label or initial or cut_name or ":" in text
+                    or not body.endswith(SENTENCE_END) or FR_FORMULA_RE.match(text.lower().replace(RSQUO, "'"))
+                    or has_finite_verb_fr(text)):
+                continue
+            self.verbless_count += 1
+            self.add("verbless", str(self.th["verbless_severity"]), s.line, s.start + 1,
+                     f"no conjugated verb found in this {s.words}-word sentence (heuristic): give it a verb, or "
+                     "attach it to its neighbour")
 
     # 7, 8. bold
     def check_bold(self) -> None:
@@ -821,6 +1040,19 @@ class Analyzer:
         if h_orig != h_out:
             self.add("headings", "warning", None, None, f"headings changed: {len(h_orig)} in original, {len(h_out)} in "
                      "output (or levels differ)")
+        # 3.1.0: the pass must not add long sentences, comma piles or verbless sentences (hard rule 12).
+        base = Analyzer(orig, self.lang, self.type, None, self.skip_quotes, self.allow_footer_dash, self.ignore, (),
+                        self.kill_list)
+        base.check_rhythm()
+        base.check_sentence_form()
+        form = {}
+        for check in ("long_sentence", "comma_load", "verbless"):
+            before, after = (sum(f["check"] == check and f["line"] is not None for f in a.findings)
+                             for a in (base, self))
+            form[check] = {"original": before, "output": after}
+            if after > before:
+                self.add(check, "warning", None, None, f"{after} in the output, {before} in the original: the pass "
+                         "must not add any")
         delta = None
         if self.type == "chronique":
             s_orig, s_out = self.spoken_words(orig), self.spoken_words(out)
@@ -831,11 +1063,12 @@ class Analyzer:
                 "paragraphs_equal": p_orig == p_out, "numbers_missing": missing, "numbers_added": added,
                 "urls_missing": urls, "timecodes_missing": codes, "headings_original": len(h_orig),
                 "headings_output": len(h_out), "spoken_words_delta_pct": delta, "bold_numeric_missing": bold,
-                "protected_emoji_missing": emoji}
+                "protected_emoji_missing": emoji, "sentence_form": form}
 
     # report
     def run(self) -> dict[str, Any]:
-        for check in (self.check_dash, self.check_kill_list, self.check_triads, self.check_rhythm, self.check_bold,
+        for check in (self.check_dash, self.check_kill_list, self.check_triads, self.check_rhythm,
+                      self.check_sentence_form, self.check_bold,
                       self.check_emoji, self.check_quotes, self.check_title_case, self.check_not_x_but_y,
                       self.check_hedging, self.check_hard_wrap, self.check_exclamation, self.check_typography_fr):
             check()
@@ -858,7 +1091,8 @@ class Analyzer:
                       for f in self.findings)
         stats = {"words": self.words, "characters": len(self.text), "paragraphs": len(self.units),
                  "sections": sections, "spoken_words": self.spoken_words(self.text) if self.type == "chronique" else None,
-                 "sentences": self.sentence_stats,
+                 "sentences": {**self.sentence_stats, "commas_max": self.comma_max_seen,
+                               "verbless": self.verbless_count},
                  "dashes": {"em": self.text.count(EM_DASH), "en": self.text.count(EN_DASH), "allowed": allowed},
                  "bold": self.bold_stats, "emoji": self.emoji_stats, "triads": self.triad_count,
                  "exclamations": self.exclamations, "kill_list": {**{c: self.kill_counts[c] for c in CATEGORIES},
@@ -904,8 +1138,9 @@ def format_text(report: dict[str, Any]) -> str:
                f"mean={s['sentences']['mean']} stdev={s['sentences']['stdev']} cv={s['sentences']['cv']} "
                f"bold_non_numeric={s['bold']['non_numeric']} emoji={s['emoji']['count']}")
     if c is not None:
+        form = " ".join(f"{k}={v['output']}/{v['original']}" for k, v in c["sentence_form"].items())
         out.append(f"Compare: paragraphs {c['paragraphs_output']}/{c['paragraphs_original']} "
-                   f"numbers_missing={len(c['numbers_missing'])} urls_missing={len(c['urls_missing'])}")
+                   f"numbers_missing={len(c['numbers_missing'])} urls_missing={len(c['urls_missing'])} {form}")
     out.append(f"Result: {report['result'].upper()} ({n['error']} error, {n['warning']} warning, {n['info']} info) "
                f"exit={report['exit_code']}")
     return "\n".join(out)

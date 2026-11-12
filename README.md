@@ -10,13 +10,13 @@ Derived from [humanizer](https://github.com/blader/humanizer), the skill by Siqi
 
 Ce skill est une passe d'édition pour Claude. Il relit un texte rédigé ou réécrit avec l'aide d'une IA, retire les tics d'écriture que la recherche et les guides éditoriaux associent aux modèles de langue, et ramène le texte vers la voix de son auteur. Le fond ne change pas : les chiffres, les sources, les liens, les citations, la FAQ, l'appel à l'action et le minutage d'un script restent tels quels.
 
-Le catalogue compte 74 patrons, de P01 à P74, répartis dans deux fichiers : un pour le français du Québec, un pour l'anglais. Chaque patron donne son niveau de preuve (étude mesurée, guide éditorial, billet de praticien ou règle maison), un exemple avant et après, un faux positif à ne pas signaler et ses sources.
+Le catalogue compte 77 patrons, de P01 à P74 et de P81 à P83, répartis dans deux fichiers : un pour le français du Québec, un pour l'anglais. Chaque patron donne son niveau de preuve (étude mesurée, guide éditorial, billet de praticien ou règle maison), un exemple avant et après, un faux positif à ne pas signaler et ses sources.
 
 Le skill reconnaît cinq types de contenu, en plus d'un type général : article de blogue SEO, GEO et AEO, page web de service ou étude de cas, publicité LinkedIn ou Meta, script vidéo parlé, matériel de formation. Pour chacun, il sait quels éléments protéger et quelles structures ne sont pas des tics, comme la FAQ d'un article ou une ligne de minutage.
 
 Il travaille en trois modes. En mode interactif, il montre un brouillon, la liste de ce qui sonne encore IA, la version finale et les changements. En mode pipeline, appelé par un autre skill ou par un script, il rend une sortie lisible par une machine, avec une ligne STATUT. En mode audit, il évalue le texte sans le réécrire.
 
-Il vérifie son résultat avec `scripts/verif_humanizer.py`, un script Python sans dépendance externe qui compare la version finale à l'original : tirets cadratins, retours à la ligne forcés, formules usées, chiffres perdus ou ajoutés, liens manquants, nombre de paragraphes.
+Il vérifie son résultat avec `scripts/verif_humanizer.py`, un script Python sans dépendance externe. Le script relit la version finale : tirets cadratins, retours à la ligne forcés, formules usées, phrases de plus de 30 mots, virgules empilées, phrases sans verbe conjugué (en français). Il la compare aussi à l'original : chiffres perdus ou ajoutés, liens manquants, nombre de paragraphes.
 
 Les instructions du skill sont rédigées en français. Claude les suit aussi pour un texte anglais, avec le fichier de patrons anglais.
 
@@ -97,13 +97,13 @@ Le skill d'origine, [humanizer](https://github.com/blader/humanizer), est l'œuv
 
 This skill is an editing pass for Claude. It rereads text written or rewritten with AI help, removes the writing tells that research and editorial guides link to language models, and brings the text back to its author's voice. The substance stays the same: numbers, sources, links, quotes, the FAQ, the call to action and the timing of a script are kept as they are.
 
-The catalog holds 74 patterns, P01 to P74, split between two files: one for Quebec French, one for English. Each pattern states its level of evidence (measured study, editorial guide, practitioner post or house rule), gives a before and after example and a false positive to leave alone, and lists its sources.
+The catalog holds 77 patterns, P01 to P74 and P81 to P83, split between two files: one for Quebec French, one for English. Each pattern states its level of evidence (measured study, editorial guide, practitioner post or house rule), gives a before and after example and a false positive to leave alone, and lists its sources.
 
 The skill knows five content types plus a general one: SEO, GEO and AEO blog post, service page or case study, LinkedIn or Meta ad, spoken video script, training material. For each type it knows what to protect and which structures are not tells, such as an article's FAQ or a timecode line.
 
 It works in three modes. Interactive mode shows a draft, a list of what still sounds like AI, the final version and the changes. Pipeline mode, called by another skill or by a script, returns machine-readable output with a STATUT line. Audit mode assesses the text without rewriting it.
 
-It checks its result with `scripts/verif_humanizer.py`, a Python script with no external dependency that compares the final version with the original: em dashes, hard line wraps, stock phrases, lost or added numbers, missing links, paragraph count.
+It checks its result with `scripts/verif_humanizer.py`, a Python script with no external dependency. The script rereads the final version: em dashes, hard line wraps, stock phrases, sentences over 30 words, piled-up commas, sentences with no finite verb (French only). It also compares it with the original: lost or added numbers, missing links, paragraph count.
 
 The skill's instructions are written in French. Claude follows them for English text too, with the English pattern file.
 

@@ -68,6 +68,7 @@ Page de service, d'offre ou étude de cas, FR ou EN. Script : `--type page_web` 
 - P71 Titre à trous
 - P73 Formule aspirationnelle creuse
 - P13 Passive voice and subjectless fragments (en)
+- P81 Phrase trop longue à l'écrit, P82 Virgules sans fonction, P83 Phrase sans verbe conjugué (fr); P81 et P82 (en)
 
 ## 6. Seuils du script pour ce type
 
@@ -77,7 +78,9 @@ Page de service, d'offre ou étude de cas, FR ou EN. Script : `--type page_web` 
 | Triades, `warning` au-delà (pour 1 000 mots) | 4 |
 | Staccato : phrases consécutives de 3 mots ou moins | 3, `info` |
 | CV minimal des phrases (si 12 phrases ou plus) | 0,30 |
-| Phrase longue, mots | aucun |
+| Phrase longue, mots | 30, `warning` |
+| Virgules dans une phrase, au-delà de | 3, `warning` |
+| Phrase sans verbe conjugué (français) | `info` |
 | Gras non numérique, `warning` au-delà (pour 1 000 mots) | 8 |
 | Listes à intitulé en gras | `info` |
 | Émojis | chaque émoji `warning` |
@@ -109,6 +112,7 @@ Ces seuils sont ceux de verif_humanizer.py; en cas d'écart, le script fait foi.
 - [ ] Chaque réponse de FAQ répond-elle dans sa première phrase?
 - [ ] Aucune locution parlée dans un titre, un intitulé ou une cellule?
 - [ ] Chaque paragraphe tient-il sur une ligne, et leur nombre est-il inchangé?
+- [ ] Aucune phrase de plus de 30 mots, aucune virgule sans fonction, un verbe conjugué dans chaque phrase du corps?
 
 ## 9. Exemple court
 

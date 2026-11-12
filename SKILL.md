@@ -1,7 +1,7 @@
 ---
 name: humanizer-qc
 metadata:
-  version: "3.0.1"
+  version: "3.1.0"
 description: >-
   Passe d'édition qui retire les tics d'écriture IA d'un texte et le ramène vers la voix de son auteur, en français du Québec et en anglais. Utilise ce skill dès qu'on dit « humanise », « passe humanizer », « ça sonne IA », « rends ça naturel », « enlève les tics d'IA », « relis pour le ton », « humanize this » ou « sounds like AI », et sans ces mots chaque fois qu'un texte rédigé ou réécrit par l'assistant va être publié ou envoyé : article de blogue SEO/GEO/AEO, page web de service, publicité LinkedIn ou Meta, script vidéo parlé, matériel de formation. Trois modes : interactif, pipeline (appel par un autre skill ou un script), audit (évaluer sans réécrire). Protège chiffres, sources, liens, FAQ, CTA et minutage; vérifie le résultat avec un script. Passe en dernier, après toute révision de fond. Jamais un outil pour rendre un texte indétectable.
 license: MIT
@@ -17,7 +17,7 @@ allowed-tools:
 
 # Humanizer : retirer les tics d'IA, garder la voix de l'auteur
 
-Dernier relecteur avant publication : retire les tics d'écriture IA documentés et ramène le texte vers la voix de son auteur, sans toucher au fond. Jamais de score de détecteur à viser : le texte doit se lire comme celui de son auteur. Dans le doute, garde la phrase de l'auteur.
+Dernier relecteur avant publication : retire les tics d'écriture IA documentés et ramène le texte vers la voix de son auteur, sans toucher au fond. Dans le doute, garde la phrase de l'auteur.
 
 ## Étape 0 : langue, type, mode, auteur
 
@@ -26,7 +26,7 @@ Dernier relecteur avant publication : retire les tics d'écriture IA documentés
 - **Mode** : `mode=` gagne; appel par un skill ou script : `pipeline`; évaluer sans corriger, ou texte d'un tiers (client, participant) : `audit`; sinon `interactif`.
 - **Une question au plus** : en interactif, type ambigu : une AskUserQuestion (cinq types, autres manques). Pipeline : aucune, `general`, « type non fourni » dans Changements. Audit : hypothèse en tête.
 - **Auteur** : calibre-toi sur l'échantillon fourni (« Voice calibration », « Voix et souffle »); sans échantillon, voix claire au registre du type. Profil de voix facultatif `references/voix-auteur.md` (registre, rythme, rejets) : lis-le s'il existe. Texte d'un tiers (`auteur=tiers`) : audit, sans profil.
-- **Texte de l'auteur** (dictée, script final, « c'est mon texte », `auteur=texte-auteur`) : `audit` par défaut; correction demandée : règles 1, 7 et 8 seulement, le reste en « encore IA ». Les rejets du profil visent les brouillons de l'assistant.
+- **Texte de l'auteur** (dictée, script final, « c'est mon texte », `auteur=texte-auteur`) : `audit` par défaut; correction demandée : règles 1, 7 et 8 seulement, le reste en « encore IA ».
 
 ## Étape 1 : charger seulement ce qu'il faut
 
@@ -60,8 +60,9 @@ Un signe isolé ne prouve rien : agis sur deux signes croisés par paragraphe, u
 7. Chiffres et sources intacts; en français, seule la typographie OQLF change (`1 300 $`, `32,50`).
 8. Typographie OQLF en français (« », « courriel »); en anglais, guillemets droits, intertitres en casse de phrase.
 9. Registre du fichier de type (section 4) ou du profil de voix.
-10. Souffle : une phrase retirée ne laisse pas de trou, rattache la précédente et la suivante. Garde la variation de longueur de l'auteur : hors script parlé, ni suite de phrases courtes juxtaposées ni paragraphe réduit à un fragment. Un tic rogné reste un tic (« un enjeu crucial » moins « crucial ») : remplace la phrase par le premier fait du texte, ou retire-la. Une phrase creuse dans un emplacement protégé (ouverture, « À retenir », chute) se réécrit avec ce que le texte dit déjà, jamais inventée.
+10. Souffle : une phrase retirée ne laisse pas de trou, rattache la précédente et la suivante. Garde la variation de longueur de l'auteur : hors script parlé, pas de suite de phrases courtes juxtaposées. Un tic rogné reste un tic (« un enjeu crucial » moins « crucial ») : remplace la phrase par le premier fait du texte, ou retire-la. Une phrase creuse dans un emplacement protégé (ouverture, « À retenir », chute) se réécrit avec ce que le texte dit déjà, jamais inventée.
 11. Un remplacement de registre garde le sens; si aucune formulation ne le garde, garde la phrase et signale-la.
+12. Phrase par phrase (P81 à P83) : aucune phrase de plus de 30 mots, aucune virgule sans fonction, un verbe conjugué par phrase hors script parlé; la passe n'en crée pas.
 
 ## Étape 5 : vérification par le script
 

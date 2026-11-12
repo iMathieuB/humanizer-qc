@@ -62,6 +62,9 @@ Metadata line of each pattern. Level, the strength of the best source, in lowerc
 | P72 | Interchangeable slogan fragments and stacked imperatives | blogue | publicite | exclamation |
 | P73 | Hollow aspirational formula | blogue | page_web, publicite | reading |
 | P74 | Implausible quiz distractors | mesure | formation | reading |
+| P81 | Sentence too long on the page | maison | all | long_sentence |
+| P82 | Commas that separate nothing | maison | all | comma_load |
+| P83 | Sentence with no finite verb | maison | article, page_web, formation, general | reading |
 
 ## Voice and soul
 
@@ -1120,6 +1123,64 @@ Level: blogue · Origin: recherche · Types: publicite, chronique · Script: rea
 **False positive.** A subscribe reminder required by the series' editorial rules, written in the author's voice, stays.
 
 **Sources.** https://www.opus.pro/blog/chatgpt-prompts-video-scripts-2026
+
+## House rules added in 3.1 (P81 to P83)
+
+Rules of this skill on sentence form, added in 3.1.0. They do not come from research, and their examples are made up. Numbers P75 to P80 are not published.
+
+### P81. Sentence too long on the page
+
+Level: maison · Origin: maison · Types: all · Script: long_sentence
+
+**Cue.** A sentence of more than 30 words (25 in an ad) that stacks a condition, an aside and a consequence. For a spoken script, see P68.
+
+**Fix.** One idea per sentence. Cut at a full stop where the idea changes, and keep the logical link in the next sentence. The result is made of complete sentences, never a string of fragments (P83, P31).
+
+**Before**
+> When a supplier invoice arrives by email, the system reads it, pulls out the supplier, the date and the amount, checks it against the purchase order, then prepares the accounting entry, which the accounts manager approves before payment.
+
+**After**
+> When a supplier invoice arrives by email, the system reads it and pulls out the supplier, the date and the amount. It checks it against the purchase order and prepares the accounting entry. The accounts manager approves it before payment.
+
+**False positive.** A list the reader must see in one block, an approved contract clause (protected), a quotation.
+
+**Sources.** House rule of the skill, 3.1.0
+
+### P82. Commas that separate nothing
+
+Level: maison · Origin: maison · Types: all · Script: comma_load
+
+**Cue.** A comma placed by habit: before "and", "or" or "then" between two short items, after a short opener, around a word that is not an aside. More than three commas in one sentence means the sentence carries too many asides.
+
+**Fix.** Read the sentence without the comma. If the meaning holds, remove it. If the comma frames an aside, give the aside its own sentence or drop its wrapping. Keep the commas of a plain list, the comma after a long opening clause, and the ones grammar requires.
+
+**Before**
+> On page 3, you tick the options you chose, then, once you have read the document, you sign, just below.
+
+**After**
+> You tick the options you chose on page 3. You sign just below once you have read the document.
+
+**False positive.** A plain list ("the client, the date, the hours and the parts"), the comma inside a number, an address or a date.
+
+**Sources.** House rule of the skill, 3.1.0
+
+### P83. Sentence with no finite verb
+
+Level: maison · Origin: maison · Types: article, page_web, formation, general · Script: reading (the `verbless` check covers French only)
+
+**Cue.** A noun phrase left as a sentence by a cut, or written for effect: "Ten hours a month, no commitment.", "No surprises.", "Instant results." The pass itself often creates it: a removed tell takes the verb with it.
+
+**Fix.** Give the sentence a subject and a finite verb, or attach the fragment to its neighbour. Invent nothing: the verb says what the text already says.
+
+**Before**
+> Ten hours of coaching over one month, with no commitment after that.
+
+**After**
+> The package covers ten hours of coaching over one month, with no commitment after that.
+
+**False positive.** Headings, labels, bullets, bold run-in labels, "label: value" lines, greetings and sign-offs, a short FAQ answer followed by the full one, a deliberate fragment in a spoken script or an ad.
+
+**Sources.** House rule of the skill, 3.1.0
 
 ## False positives: what NOT to flag
 
